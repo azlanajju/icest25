@@ -55,82 +55,16 @@
         </div>
     </div>
     <!--===================== HEADER =====================-->
-    <header class="header-two">
-        <a href="#" class="nav-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-        <div class="header-two-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-4 col-lg-4 logo-two-cover">
-                        <a href="https://localhost:5001/Home/Index">
-                            <img class="logoimg" src="./images/logos/Conclave_Logo.png" alt="logo">
-                        </a>
-                        <a href="">
-                            <img class="logoimg" src="./images/logos/ICEST_Logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href="tel:09986096513"><i class="fas fa-phone"></i>+91 9986096513</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href=""><i class="fas fa-map-marker-alt"></i>Mangalore, INDIA</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-3 header-top-info">
-                        <ul class="header-two-adr header-cont">
-                            <li><a href="mailto:ICEST25@pace.edu.in"><i class="fas fa-envelope"></i>ICEST25@pace.edu.in</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </header>
+    <?php 
+$menuPath="./";
+include("./components/topHeader.php");?>
     <!--=================== HEADER END ===================-->
 
 
+<?php 
+$menuPath="./";
+include("./components/navmenu.php");?>
 
-
-
-    <div class="header-menu header-menu-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="nav-menu flexnav">
-                        <ul class="nav-list">
-                            <li><a class="activeNav" href="#">Home</a></li>
-                            <li><a href="./patrons.html">Patrons</a></li>
-                            <li><a href="./aboutus.html">About Us</a></li>
-                            <li><a href="./themes.html">Themes</a></li>
-                            <li class="dropdown">
-                                <a href="#">Committees<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul>
-                                    <li><a href="./adCommitee.html">Advisory Committees</a></li>
-                                    <!-- <li><a href="">Technical Committee</a></li> -->
-                                    <!-- <li><a href="">Organising Committee</a></li> -->
-
-                                </ul>
-                            </li>
-                            <li><a href="./speakers.html">Speakers</a></li>
-                            <li><a href="./register.html">Register</a></li>
-
-
-                            <li><a href="./submissionThemes.html">Submission</a></li>
-                            <li><a href="./schedule.html">Schedule</a></li>
-                            <li><a href="./contactus.html">Contact Us</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
 
 <style>
     .hero {
