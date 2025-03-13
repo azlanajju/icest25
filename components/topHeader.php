@@ -9,10 +9,10 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4 col-lg-4 logo-two-cover">
                         <a href="https://localhost:5001/Home/Index">
-                            <img class="logoimg" src="./images/logos/Conclave_Logo.png" alt="logo">
+                            <img class="logoimg" src="<?php echo $headPath; ?>images/logos/Conclave_Logo.png" alt="logo">
                         </a>
                         <a href="">
-                            <img class="logoimg" src="./images/logos/ICEST_Logo.png" alt="logo">
+                            <img class="logoimg" src="<?php echo $headPath; ?>images/logos/ICEST_Logo.png" alt="logo">
                         </a>
                     </div>
                     <div class="col-2 header-top-info">

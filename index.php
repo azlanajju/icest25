@@ -48,80 +48,82 @@
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
 
 
-        <div style="position: fixed;top: 0;left: 0;z-index: 999999999999999;" class=" .newsContainer">
+    <div style="position: fixed;top: 0;left: 0;z-index: 999999999999999;" class=" .newsContainer">
         <div>
             <marquee class="marquee" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="scroll" scrollamount="7">
-                Notice: This site is currently under development and may experience issues while in use. We appreciate your patience and cooperation as we work to finalize and improve the experience. Thank you for your understanding.                   </marquee>
+                Notice: This site is currently under development and may experience issues while in use. We appreciate your patience and cooperation as we work to finalize and improve the experience. Thank you for your understanding. </marquee>
         </div>
     </div>
     <!--===================== HEADER =====================-->
-    <?php 
-$menuPath="./";
-include("./components/topHeader.php");?>
+    <?php
+
+    $headPath = "./";
+    include("./components/topHeader.php");
+
+
+    $menuPath = "./";
+    include("./components/navmenu.php"); ?>
     <!--=================== HEADER END ===================-->
 
+    <style>
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background: black;
+        }
 
-    
-<?php 
-$menuPath="./";
-include("./components/navmenu.php");?>
+        .hero video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(5px);
+        }
 
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
 
-<style>
-    .hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: black;
-}
-.hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: blur(5px);
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-.overlay p{
-  color: white;
-  z-index: 999;
+        .overlay p {
+            color: white;
+            z-index: 999;
 
-}
-.overlay h1 {
-  font-size: 3rem;
-  z-index: 999;
-}
-.overlay:after {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: rgba(35, 34, 33, 0.5);
-    content: "";
-}
+        }
 
-</style>
+        .overlay h1 {
+            font-size: 3rem;
+            z-index: 999;
+        }
+
+        .overlay:after {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(35, 34, 33, 0.5);
+            content: "";
+        }
+    </style>
 
     <section class="banner2" id="home">
-        
+
         <div class="mainSlider" style="max-height: none; overflow: visible; height: 80vh;">
             <!-- <div class="tp-banner1 revslider-initialised tp-simpleresponsive" id="revslider-784" style="height: 100%; max-height: none; backface-visibility: hidden; transform-style: flat; transform: translate3d(0px, 0px, 0px);">
                 <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;" class="tp-revslider-mainul">
@@ -153,16 +155,16 @@ include("./components/navmenu.php");?>
             </div> -->
             <div class="hero">
                 <video autoplay loop muted>
-                  <source src="./images/homeVideo.mp4" type="video/mp4">
+                    <source src="./images/homeVideo.mp4" type="video/mp4">
                 </video>
                 <div class="overlay">
                     <img class="homeImg" src="./images/logos/ICEST_Logo.png" alt="">
-                    <h2 style="position: absolute;right: 0;left: 0;" class="homeTxt">INTERNATIONAL CONCLAVE ON ENGINEERING SCIENCES AND TECHNOLOGY</h2>
-                 
-                  <div class="homeBtns">
-     
+                    <h2 style="position: absolute;right: 0;left: 0;" class="homeTxt">INTERNATIONAL CONCLAVE ON ENGINEERING SCIENCES AND TECHNOLOGY - ICEST'25</h2>
+
+                    <div class="homeBtns">
+
+                    </div>
                 </div>
-</div>
     </section>
     <!--=================================== home pge end ======================= -->
 
@@ -240,23 +242,23 @@ include("./components/navmenu.php");?>
                                     </span> Release of Brochure & Call for papers</h4>
                             </div>
                             <div class="history-info">
-                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>10th March 2025 <br>
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>30th March 2025 <br>
                                     </span>Paper Submission Closes</h4>
                             </div>
                             <div class="history-info">
-                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>20th March 2025<br>
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>5th April 2025<br>
                                     </span>Notification of Acceptance</h4>
                             </div>
                             <div class="history-info">
-                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>25th March 2025 <br>
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>10th April 2025 <br>
                                     </span> Last Date of Registration</h4>
                             </div>
                             <div class="history-info">
-                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>3rd April 2025 <br>
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>15th April 2025 <br>
                                     </span> Final Camera Ready paper</h4>
                             </div>
                             <div class="history-info">
-                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>23rd April 2025 <br>
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>07th May 2025 <br>
                                     </span> ICEST 25 - Inaugration</h4>
                             </div>
                         </div>
@@ -292,7 +294,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ Robotics and automation</li>
                             <li> ↪ Materials and modeling</li>
                             <li></li> <br>
-                            <li><a class="btn" href="./themes/mechTech.html">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./registrations/register1.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/MechTech/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/MechTech/Submit">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -312,7 +314,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ Sustainability and Environmental Engineering</li>
                             <li> ↪ Water Resources and Irrigation Engineering</li>
                             <li></li><br>
-                            <li><a class="btn" href="./themes/ic-ice.html">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./registrations/register2.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/ICICE/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/ICICE/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -334,7 +336,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ Cyber physical systems</li>
 
                             <li></li><br>
-                            <li><a class="btn" href="./themes/DIGITAREV.html">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./registrations/register3.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/Digitarev/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/Digitarev/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -354,7 +356,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ VLSI and MEMS</li>
                             <li> ↪ Communication networks and Security</li>
                             <li></li><br>
-                            <li><a class="btn" href="./themes/semiCommTechSummit.html">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./registrations/register4.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/SCTS/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/SCTS//Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -374,14 +376,14 @@ include("./components/navmenu.php");?>
                             <li> ↪ Environmental engineering</li>
                             <li> ↪ Bioprocessing</li>
                             <li></li><br>
-                            <li><a class="btn" href="./themes/BIOTRENDCON.html">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./registrations/register5.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/Biotrendcon/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/Biotrendcon/Submit/">Submit Now</a></li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <div class="schedule-header">
                         <div class="schedule-time">Theme 6</div>
-                        <div class="schedule-title">ARTELLIGENCE 2025:  INTERNATIONAL CONFERENCE CONFERENCE ON ARTIFICIAL INTELLIGENCE</div>
+                        <div class="schedule-title">ARTELLIGENCE 2025: INTERNATIONAL CONFERENCE CONFERENCE ON ARTIFICIAL INTELLIGENCE</div>
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </div>
                     <div class="schedule-content">
@@ -393,7 +395,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ AI for Sustainable technologies and Responsible ML</li>
                             <li> ↪ Natural Language Processing, Ai Communication, and Ethics</li>
                             <li></li><br>
-                            <li><a class="btn" href="./themes/icibs.html">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./registrations/register6.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/Artelligence/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./Page/Themes/Artelligence/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -401,7 +403,7 @@ include("./components/navmenu.php");?>
                 <li>
                     <div class="schedule-header">
                         <div class="schedule-time">Theme 7</div>
-                        <div class="schedule-title">ICIBS 2025:  INTERNATIONAL CONFERENCE IN BASIC & APPLIED SCIENCES</div>
+                        <div class="schedule-title">ICIBS 2025: INTERNATIONAL CONFERENCE IN BASIC & APPLIED SCIENCES</div>
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </div>
                     <div class="schedule-content">
@@ -413,7 +415,7 @@ include("./components/navmenu.php");?>
                             <li> ↪ Nanotechnology</li>
                             <li> ↪ Applied Physics</li>
                             <li></li><br>
-                            <li><a class="btn" href="././/icibs.html">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./registrations/register6.html">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/ICIBS/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./Page/Themes/ICIBS/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -426,38 +428,18 @@ include("./components/navmenu.php");?>
 
     <!--===================== S-association =====================-->
     <div class="container">
-        <section class="our-history s-title-bg">
+        <section class=" s-title-bg">
             <span class="title-bg">Partners</span>
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <div class="our-history-left">
-                            <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">
-                                <h3 class="title-relevant-link">Our Partners</h3>
-                            </h2>
-                            <div class="partImages">
-                                <img data-aos="fade-right" data-aos-delay="50" height="100" src="./images/logos/presidecy-university.png" alt="">
-                              <!--  <img data-aos="fade-right" data-aos-delay="100" height="100" src="./images/logos/westlondon.png" alt="">-->
+                <h2 data-aos="fade-up" data-aos-delay="50" class="title-line">Our Partner</h2>
+                <div class="">
+                    <div class="partImages" style="display:flex;justify-content:center">
+                        <img data-aos="fade-right" data-aos-delay="50" height="100" src="./images/logos/presidecy-university.png" alt="">
+                        <!--  <img data-aos="fade-right" data-aos-delay="100" height="100" src="./images/logos/westlondon.png" alt="">-->
 
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="our-history-left">
-                            <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">
-                                <h3 class="title-relevant-link">In Associociation with</h3>
-                            </h2>
-                            <div class="partImages">
-                                <img data-aos="fade-left" data-aos-delay="50" height="100" src="./images/logos/mangaloreUniversity.png" alt="">
-                                <img data-aos="fade-left" data-aos-delay="75" height="100" src="./images/logos/viganUniversity.png" alt="">
-                                <!-- <img data-aos="fade-left" data-aos-delay="100" height="100" src="./images/logos/ieee_mlr.png" alt=""> -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
+       
             </div>
         </section>
 
@@ -565,14 +547,15 @@ include("./components/navmenu.php");?>
     <script type="text/javascript" src="./assests/files/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="./assests/files/theme.js"></script>
     <script src="./assests/aos/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
     <!--
 <script> alert("The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.");</script>
 
 <script> alert("The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.");</script> -->
     <div id="sp-installed"></div>
-    
+
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
-

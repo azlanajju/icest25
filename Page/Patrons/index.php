@@ -39,85 +39,20 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+
     <!--===================== HEADER =====================-->
-    <header class="header-two">
-        <a href="#" class="nav-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-        <div class="header-two-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-4 col-lg-4 logo-two-cover">
-                        <a href="../../">
-                            <img class="logoimg" src="../../images/logos/Conclave_Logo.png" alt="logo">
-                        </a>
-                        <a href="../../">
-                            <img class="logoimg" src="../../images/logos/ICEST_Logo.png" alt="logo">
+    <?php
+    $currentPage = 'Patrons';
 
-                        </a>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href="tel:09986096513"><i class="fas fa-phone"></i>+91 9986096513</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href=""><i class="fas fa-map-marker-alt"></i>Mangalore, INDIA</a></li>
-                        </ul>
-                    </div>
+    $headPath = "../../";
 
-                    <div class="col-3 header-top-info">
-                        <ul class="header-two-adr header-cont">
-                            <li><a href="mailto:ICEST25@pace.edu.in"><i class="fas fa-envelope"></i>ICEST25@pace.edu.in</a></li>
-                        </ul>
-                    </div>
+    include("../../components/topHeader.php");
 
 
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-    <!--=================== HEADER END ===================-->
-
-    <div class="header-menu header-menu-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="nav-menu flexnav">
-                        <ul class="nav-list">
-                            <li><a href="../../">Home</a></li>
-                            <li><a class="activeNav">Patrons</a></li>
-                            <li><a href="../../aboutus.html">About Us</a></li>
-                            <li><a href="../../themes.html">Themes</a></li>
-                            <li class="dropdown">
-                                <a href="#">Committees<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul>
-                                    <li><a href="../../adCommitee.html">Advisory Committees</a></li>
-
-
-                                </ul>
-                            </li>
-                            <li><a href="../../speakers.html">Speakers</a></li>
-                            <!-- <li><a href="../../register.html">Register</a></li>
-                            <li><a href="../../submissionThemes.html">Submission</a></li> -->
-                            <li><a href="../../schedule.html">Schedule</a></li>
-                            <li><a  href="../../conferenceProceedings.html">Conference Proceedings</a></li>
-                            <li><a href="../../contactus.html">Contact Us</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+    $menuPath = "../../";
+    include("../../components/navmenu.php");
+    ?>
+    <!--===================== HEADER =====================-->
 
 
     <!--=================== PAGE-TITLE ===================-->
@@ -298,8 +233,8 @@
                             <img height="150" src="../../images/committee_img/sharmila.jpg" alt="">
 
                             <h4>Dr. Sharmila Kumari</h4>
-                            <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
-                               Vice pricipal,  Professor & Head, Department of CSE <br> PACE, Mangalore
+                            <p data-aos="fade-up" data-aos-delay="100" >
+                                Vice pricipal, Professor & Head, Department of CSE <br> PACE, Mangalore
 
                             </p>
                         </li><br>
@@ -317,13 +252,41 @@
                                 <!-- Email: hod_aiml@pace.edu.in -->
                             </p>
 
-               
+
                         </li><br>
                         <li class="col-sm">
 
                             <img width="150" height="150" src="../../images/committee_img/DrPrashanthPaiM.jpeg" alt="">
                             <h4>Dr. Prashanth Pai</h4>
                             <p>Assistant Professor & Head of Department of Mechanical Engineering, PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+                        </li><br>
+                    </div>
+                    <br>
+                    <!-- <hr> -->
+                    <div class="p-3"></div>
+                    <h3 class="title-line">Publishing Co-ordinators</h3>
+                    <div class="p-3"></div>
+                    <div data-aos="fade-up" data-aos-delay="50" class="row">
+                        <li class="col-sm">
+                            <img width="150" height="150" src="../../images/committee_img/SyedAbdulHayan.jpeg" alt="">
+                            <h4>Dr. Sayed Abdul hayan</h4>
+                            <p>Associate Professor, Department of Computer Science & Engineering,<br> PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+<style>
+    img{
+        object-fit: cover !important;
+    }
+</style>
+
+                        </li><br>
+                        <li class="col-sm">
+
+                            <img width="150" height="150" src="../../images/adcommittee/abdulrazak.png" alt="">
+                            <h4>Dr. Abdul Razak</h4>
+                            <p> Professor, Department Mechanical Engineering <br> PACE, Mangalore.<br>
                                 <!-- Email: hod_aiml@pace.edu.in -->
                             </p>
                         </li><br>
@@ -384,12 +347,12 @@
                 <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
                     <h6>PACE GROUPS</h6>
                     <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/GAES.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../../../assests/files/PACEs.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACE%20Group.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/CBS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/GAES.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/IIS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACEs.png" alt="social"></a></li>
                     </ul>
                 </div>
             </div>
