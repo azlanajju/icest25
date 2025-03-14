@@ -296,7 +296,7 @@
                             <li></li> <br>
                             <li><a class="btn" href="./Page/Themes/MechTech/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/MechTech/Submit">Submit Now</a></li>
                         </ul>
-
+ 
                     </div>
                 </li>
                 <li>

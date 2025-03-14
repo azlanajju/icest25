@@ -109,7 +109,7 @@
                         <ul>
 
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register1.html">Submit now</a> <a class="btn btn-danger" href="../../themes/mechTech.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/MechTech/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/MechTech/">View</a></li>
                         </ul>
 
                     </div>
@@ -123,7 +123,7 @@
                     <div class="schedule-content">
                         <ul>
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register2.html">Submit now</a> <a class="btn btn-danger" href="../../themes/ic-ice.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/ICICE/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/ICICE">View</a></li>
                         </ul>
 
                     </div>
@@ -137,7 +137,7 @@
                     <div class="schedule-content">
                         <ul>
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register3.html">Submit now</a> <a class="btn btn-danger" href="../../themes/themeCS.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/Digitarev/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/Digitarev">View</a></li>
                         </ul>
 
                     </div>
@@ -151,7 +151,7 @@
                     <div class="schedule-content">
                         <ul>
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register4.html">Submit now</a> <a class="btn btn-danger" href="../../themes/semiCommTechSummit.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/SCTS/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/SCTS">View</a></li>
                         </ul>
 
                     </div>
@@ -165,7 +165,7 @@
                     <div class="schedule-content">
                         <ul>
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register5.html">Submit now</a> <a class="btn btn-danger" href="../../themes/BIOTRENDCON.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/Biotrendcon/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/Biotrendcon">View</a></li>
                         </ul>
                     </div>
                 </li>
@@ -178,7 +178,7 @@
                     <div class="schedule-content">
                         <ul>
                             
-                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../../registrations/register5.html">Submit now</a> <a class="btn btn-danger" href="../../themes/BIOTRENDCON.html">View</a></li>
+                            <li><br> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Themes/Artelligence/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/Artelligence">View</a></li>
                         </ul>
                     </div>
                 </li>
@@ -191,7 +191,7 @@
                     <div class="schedule-content">
                         
                             <ul>
-<li><a style="background: rgb(170, 0, 0);color: white;" class="btn" href="../../registrations/register6.html">Submit now</a> <a class="btn btn-danger" href="../../themes/icibs.html">View</a></li>
+<li><a style="background: rgb(170, 0, 0);color: white;" class="btn" href="../Themes/ICIBS/Submit/">Submit now</a> <a class="btn btn-danger" href="../Themes/ICIBS">View</a></li>
                         </ul>
 
                     </div>
