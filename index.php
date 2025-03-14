@@ -357,7 +357,7 @@
                             <li> ↪ VLSI and MEMS</li>
                             <li> ↪ Communication networks and Security</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/SCTS/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/SCTS//Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="./Page/Themes/SCTS/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/SCTS/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
