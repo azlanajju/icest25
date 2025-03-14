@@ -41,8 +41,8 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
-       <!--===================== HEADER =====================-->
-       <?php
+    <!--===================== HEADER =====================-->
+    <?php
     $currentPage = 'Schedule';
 
     $headPath = "../../";
@@ -97,13 +97,13 @@
     <!--================= S-SCHEDULE-Program =================-->
     <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="50" class="title-line">Schedule of Event</h2>
-            <div class=" .newsContainer">
-        <!-- <div>
+        <div class=" .newsContainer">
+            <!-- <div>
             <marquee class="marquee" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="scroll" scrollamount="7">
                 The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.            </marquee>
      
             </div> -->
-    </div>
+        </div>
         <!--================= OUR-HISTORY END =================-->
         <section class="our-history s-title-bg">
             <span class="title-bg">Our Publications</span>
@@ -113,8 +113,8 @@
                         <div class="our-history-left">
                             <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">Publication</h2>
                             <p>
-All the accepted papers will be published in conference proceedings with ISBN
-                                Selected papers will be published in reputed journals (based on norms).        </p>
+                                All the accepted papers will be published in conference proceedings with ISBN
+                                Selected papers will be published in reputed journals (based on norms). </p>
                             <h3 class="title-relevant-link">Relevant Links</h3>
                             <ul style="list-style-type:square;" class="relevent-link">
                                 <li class="relevent-link"><a class="relevent-link" href="../../register.html">Register for ICEST25</a></li>
@@ -124,32 +124,32 @@ All the accepted papers will be published in conference proceedings with ISBN
                         </div>
                     </div>
                     <div class="history-info-cover">
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>23rd January 2025 <br>
-                                </span> Release of Brochure & Call for papers</h4>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>23rd January 2025 <br>
+                                    </span> Release of Brochure & Call for papers</h4>
+                            </div>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>30th March 2025 <br>
+                                    </span>Paper Submission Closes</h4>
+                            </div>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>5th April 2025<br>
+                                    </span>Notification of Acceptance</h4>
+                            </div>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>10th April 2025 <br>
+                                    </span> Last Date of Registration</h4>
+                            </div>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>15th April 2025 <br>
+                                    </span> Final Camera Ready paper</h4>
+                            </div>
+                            <div class="history-info">
+                                <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>07th May 2025 <br>
+                                    </span> ICEST 25 - Inaugration</h4>
+                            </div>
                         </div>
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>10th March 2025 <br>
-                                </span>Paper Submission Closes</h4>
-                        </div>
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>20th March 2025<br>
-                                </span>Notification of Acceptance</h4>
-                        </div>
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>25th March 2025 <br>
-                                </span> Last Date of Registration</h4>
-                        </div>
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>3rd April 2025 <br>
-                                </span> Final Camera Ready paper</h4>
-                        </div>
-                        <div class="history-info">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title"><span>23rd April 2025 <br>
-                                </span> ICEST 25 - Inaugration</h4>
-                        </div>
-                    </div>
-                </div>
+                     </div>
             </div>
         </section>
         <!--================= OUR-HISTORY END =================-->
@@ -374,7 +374,9 @@ All the accepted papers will be published in conference proceedings with ISBN
     <script type="text/javascript" src="../../assests/files/theme.js"></script>
 
     <script src="../../assests/aos/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
 
 
