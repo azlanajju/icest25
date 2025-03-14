@@ -229,8 +229,8 @@
                             </p>
                             <h3 class="title-relevant-link">Relevant Links</h3>
                             <ul style="list-style-type:square;" class="relevent-link">
-                                <li class="relevent-link"><a class="relevent-link" href="./register.html">Register for ICEST25</a></li>
-                                <li><a class="relevant-link" href="./submissionThemes.html">Paper Submission</a></li>
+                                <li class="relevent-link"><a class="relevent-link" href="./Page/Register">Register for ICEST25</a></li>
+                                <li><a class="relevant-link" href="./Page/Submission">Paper Submission</a></li>
                             </ul>
 
                         </div>
