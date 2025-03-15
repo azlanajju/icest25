@@ -69,10 +69,7 @@
                     ENGINEERING SCIENCES AND TECHNOLOGY</p>
             </div>
             <div class="themeIcon">
-                <!-- <img src="../../../images/biotrend.png" alt="BIOTRENDCON"> -->
-                <h1> MECH-TECH 2024</h1>
-                <h3>INTERNATIONAL CONFERENCE ON EMERGING TRENDS IN MECHANICAL ENGINEERING</h3>
-                <h1></h1>
+                <img src="../../../images/mechTech.png" alt="">
             </div>
 
 
@@ -110,13 +107,11 @@
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
                         Chair
                     </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/mechCommittee/razzak.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/mechCommittee/shahabaz.png" alt="">
                     <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Abdul Razak</h4>
+                        <h4 data-aos="fade-up" data-aos-delay="100">  Dr. Shahabaz S. M. </h4>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
-                            Associate Professor, Department of ME, PACE, Mangalore <br>
-                            Email id: abdul_mech@pace.edu.in<br>
-                            Mob:+91 8660018783
+                      Assistant Professor Dept of ME  <br> PACE, Mangaluru.
                         </p>
                     </div>
                 </div>
@@ -124,14 +119,12 @@
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
                         Co-ordinator
                     </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/mechCommittee/prasanth.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/mechCommittee/sal.png" alt="">
 
                     <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100"> Dr. Maruthi Prashanth B H</h4>
+                        <h4 data-aos="fade-up" data-aos-delay="100"> Dr. Mahammad Salman Warimani </h4>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
-                            Assistant Professor, Department of ME, PACE, Mangalore <br>
-                            Email id: maruthi_mech@pace.edu.in <br>
-                            Mob: +91 9538485858<br>
+                        Assistant Professor Dept of ME <br> PACE, Mangaluru.
                         </p>
                     </div>
                 </div>
@@ -180,9 +173,7 @@
                             <li>
                                 <img class="sacImg" src="../../../images/mechCommittee/shivkumar.jpg" alt="">
                                 <h4>Dr. P S Shivakumar Gouda</h4>
-                                <p>Associate Professor, Department of Mechanical engineering,
-                                    SDM College of Engineering and Technology
-                                    Dharwad, Karnataka, India</p>
+                                <p>Associate Professor, Department of Robotics and Artificial Intelligence Engineering MITE, Mangalore, Karnataka, India</p>
                             </li><br>
                             <li>
                                 <img class="sacImg" src="../../../images/mechCommittee/madeva.jpg" alt="">
@@ -391,17 +382,22 @@
                                             <h4>Prof. Kiran Kumar B</h4>
                                             <p>Assistant Professor, Department of ME, PACE, Mangaluru</p>
                                         </li><br>
-                                        <li>
+                                        <!-- <li>
                                             <h4>Prof. Mahammad Salman Warimani</h4>
                                             <p>Assistant Professor, Department of ME, PACE, Mangaluru</p>
-                                        </li>
+                                        </li> -->
                                         <!-- <li> <br>
                                             <h5 class="title-relevant-link">
                                                 TECHNICAL STAFF
                                             </h5>
                                             <h4> Charanraj P. J.</h4>
                                         </li> -->
+
                                     </ul>
+                            <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">
+                                <h5 class="title-relevant-link"> Technical Staff</h5>
+                            </h2>
+                            <p>Mr. Haseed Malemar</p>
                                 </div>
                             </div>
                         </div>
@@ -415,36 +411,16 @@
                             <div class="partImages">
                                 <div class="overview-info-item">
                                     <ul class="ulli">
-                                        <li>
-                                            <p>Muhammed Nihal</p>
-                                        </li>
-                                        <li>
-                                            <p>Muhammed Noufal</p>
-                                        </li>
-                                        <li>
-                                            <p>Sheikh Mohammed Rahil</p>
-                                        </li>
-                                        <li>
-                                            <p>Adithya P N.</p>
-                                        </li>
-                                        <li>
-                                            <p>Abdul Rehman Asif</p>
-                                        </li>
-                                        <li>
-                                            <p>Marwan Sameer M P</p>
-                                        </li>
-                                        <li>
-                                            <p>Midhun Kc</p>
-                                        </li>
-                                        <li>
-                                            <p>Mohammed Sulfiqar H</p>
-                                        </li>
-                                        <li>
-                                            <p>Shaheem Abdulla</p>
-                                        </li>
-                                        <li>
-                                            <p>Deekshith.</p>
-                                        </li>
+                                    <li><p>Abdul Samad E T</p></li>
+    <li><p>Martin Joyal Crasta</p></li>
+    <li><p>Mohammad Affam</p></li>
+    <li><p>Mohammad Fulail Sahaz</p></li>
+    <li><p>Zaman Ali</p></li>
+    <li><p>Amil Azeez</p></li>
+    <li><p>M Rehan</p></li>
+    <li><p>Nithin M K</p></li>
+    <li><p>Rizwan S</p></li>
+    <li><p>Mohammed Muhaz</p></li>
                                         <br>
                                         <p>for more queries:</p>
                                         <a href="mailto: mech_tech@pace.edu.in"> mech_tech@pace.edu.in</a> <br>
@@ -474,73 +450,11 @@
     <?php
     include("../../../components/partners.php");
     ?>
-
     <!--===================== FOOTER =====================-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-md-4">
-                    <a href=" index.html" class="logo-footer">
-                        <div class="logo-text"><span>PACE</span>CONCLAVE</div>
-                    </a>
-                    <div style="text-align: justify;" class="footer-text">
-                        PACE Conclave, initiated by P.A College of Engineering, unites academia, industry, and research through events. The inaugural event, International Conclave on Engineering Science & Technology (ICEST 24).
-                    </div>
-                    <ul class="soc-link">
-                        <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4">
-                    <h6>Contacts</h6>
-                    <ul class="footer-contacts">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://g.page/PACEMangalore?share">PA College Of Engineering <br>Mangalore,
-                                INDIA</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <a href="tel:9986096513">+91 9986096513</a>
-                            <a href="tel: 8197603006">+91 8197603006</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:icest24@pace.edu.in ">icest24@pace.edu.in </a>
-                        </li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
-                    <h6>PACE GROUPS</h6>
-                    <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/GAES.png" alt="social"></a>
-                        </li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACEs.png" alt="social"></a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row footerCredContent">
-                    <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
-                            Reserved.</div>
-
-                    </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--=================== FOOTER END ===================-->
+    <?php
+    include("../../../components/footer.php");
+    ?>
+    <!--=================== FOOTER END ===================-->    
     <!--===================== TO TOP =====================-->
     <a class="to-top active" href="#home">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>

@@ -69,10 +69,7 @@
                     ENGINEERING SCIENCES AND TECHNOLOGY</p>
             </div>
             <div class="themeIcon">
-                <!-- <img src="../../../images/biotrend.png" alt="BIOTRENDCON"> -->
-                <h1> ICIBS 2025</h1>
-                <h3> INTERNATIONAL CONCLAVE-IN BASIC SCIENCE</h3>
-                <h1></h1>
+                <img src="../../../images/icibs.png" height="300px" alt="BIOTRENDCON">
             </div>
 
 
@@ -119,8 +116,27 @@
                             shaffi_phy@pace.edu.in <br>
                             Mob: 9535622435
                         </p>
-                    </div> <hr>
+                    </div> 
                     <br>
+                    <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
+                        Co-ordinator
+                    </h3>
+                    <!-- <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/committee_img/raje" alt=""> -->
+
+                    <div class="overview-info-item " style="margin-top: 10px;">
+                        <h4 data-aos="fade-up" data-aos-delay="100">Ms. Rajeshwari</h4>
+                        <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
+                            Assistant Professor, Department of Chemistry, PACE, Mangalore <br>
+                            <!-- Email id: supriya_chem@pace.edu.in <br>
+                            Mob: 9900405688 -->
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+   
+                <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
+                        Co-Chair
+                    </h3>
                     <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/bsCommittee/majeed.jpg" alt="">
                     <div class="overview-info-item">
                         <h4 data-aos="fade-up" data-aos-delay="100">Mr. Abdul Majeed</h4>
@@ -130,21 +146,6 @@
                             majeed.mat@pace.edu.in <br>
                             Mob: 9980181499
                             
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
-                        Co-ordinator
-                    </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/bsCommittee/supriyaBangera.jpg.crdownload" alt="">
-
-                    <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Supriya Bangera</h4>
-                        <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
-                            Assistant Professor, Department of Chemistry, PACE, Mangalore <br>
-                            Email id: supriya_chem@pace.edu.in <br>
-                            Mob: 9900405688
                         </p>
                     </div>
                 </div>
@@ -359,10 +360,7 @@
                             <div class="partImages">
                                 <div class="overview-info-item">
                                     <ul>
-                                        <li>
-                                            <h4>Mr. Abdul Majeed</h4>
-                                            <p>Associate Professor, Department of Mathematics, PACE, Mangaluru</p>
-                                        </li><br>
+                 
                                         <li>
                                             <h4>Ismail S</h4>
                                             <p>Assistant Professor, Department of Physics, PACE, Mangaluru</p>
@@ -376,7 +374,11 @@
                                             <p>Assistant Professor, Department of Mathematics, PACE, Mangaluru</p>
                                         </li>
                                         <li> <br>
-                                            <h4>Mrs. Rajeshwari</h4>
+                                            <h4>Ms.Sowmya Shetty</h4>
+                                            <p>Assistant Professor, Department of Mathematics, PACE, Mangaluru</p>
+                                        </li> <br>
+                                        <li> <br>
+                                            <h4>Dr.Supriya Bangera</h4>
                                             <p>Assistant Professor, Department of Mathematics, PACE, Mangaluru</p>
                                         </li> <br>
                                         <li>

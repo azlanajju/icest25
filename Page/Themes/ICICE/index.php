@@ -45,17 +45,17 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
-     <!--===================== HEADER =====================-->
-        <?php
-     $currentPage = 'Themes';
+    <!--===================== HEADER =====================-->
+    <?php
+    $currentPage = 'Themes';
 
-$headPath = "../../../";
-include("../../../components/topHeader.php");
+    $headPath = "../../../";
+    include("../../../components/topHeader.php");
 
 
-$menuPath = "../../../";
-include("../../../components/navmenu.php"); ?>
-<!--=================== HEADER END ===================-->
+    $menuPath = "../../../";
+    include("../../../components/navmenu.php"); ?>
+    <!--=================== HEADER END ===================-->
 
     <!-- =========================home banner start============= -->
     <section class="banner2" id="home">
@@ -63,15 +63,12 @@ include("../../../components/navmenu.php"); ?>
             <div class="topLeftLogoSection">
                 <h1>DEPARTMENT OF CIVIL ENGINEERING</h1>
                 <i>under the Umbrella of</i>
-                <img src="../../../images/logos/icest23.png" alt="">
+                <img src="../../../images/logos/ICEST_Logo.png" alt="">
                 <p>INTERNATIONAL CONCLAVE ON <br>
                     ENGINEERING SCIENCES AND TECHNOLOGY</p>
             </div>
             <div class="themeIcon">
-                <!-- <img src="../../../images/biotrend.png" alt="BIOTRENDCON"> -->
-                <h1>IC-ICE</h1>
-                <h3> International Conclave - In Civil Engineering</h3>
-                <h1></h1>
+                <img src="../../../images/icice.png" alt="">
             </div>
 
 
@@ -250,7 +247,7 @@ include("../../../components/navmenu.php"); ?>
 
                             <!-- <img class="sacImg" src="../../../images/blankPerson.jpg" alt=""> -->
                             <h4>Dr. Bhojaraja B.E </h4>
-                            <p>Associate Professor , Civil engineering department 
+                            <p>Associate Professor , Civil engineering department
                                 NMAM INSTITUTE OF TECHNOLOGY NITTE </p>
                             </li><br>
                         </ul>
@@ -326,10 +323,6 @@ include("../../../components/navmenu.php"); ?>
                                         <li>
                                             <h4>Prof. Safa Sanah C</h4>
                                             <p>Assistant Professor, Department of CIV, PACE, Mangaluru</p>
-                                        </li><br>
-                                        <li>
-                                            <h4>Prof. Mohammad Faisal</h4>
-                                            <p>Assistant Professor, Department of CIV, PACE, Mangaluru</p>
                                         </li>
                                         <li><br>
                                             <h4>Prof. Kavyashree</h4>
@@ -339,7 +332,7 @@ include("../../../components/navmenu.php"); ?>
                                         <strong>for more queries:</strong> <br>
                                         <a href="mailto:ic-ice@pace.edu.in">ic-ice@pace.edu.in</a>
                                         <p>+91 8073290038 <br> +91 8089828810</p>
-                                        
+
                                         <!-- <li> <br>
                                             <h5 class="title-relevant-link">
                                                 TECHNICAL STAFF
@@ -360,22 +353,45 @@ include("../../../components/navmenu.php"); ?>
                             <div class="partImages">
                                 <div class="overview-info-item">
                                     <ul class="ulli">
-                                        <li><p>Fathimath Hanna</p></li>
-                                        <li><p>Chaithanya</p></li>
-                                        <li><p>Mohammed Ashraf</p></li>
-                                        <li><p>Mariyam Aleena Mahin</p></li>
-                                        <li><p>Mahamad Asif S</p></li>
-                                        <li><p>Sachin Kumar Singh</p></li>
-                                        <li><p>Rahil Shaffi</p></li>
-                                        <li><p>Mohammed Tanveer</p></li>
-                                        <li><p>Sahir Azfar</p></li>
-                                        <li><p>Rifaz N H</p></li>
-                                        <li><p>Abdul Shaheed Kaiseeran</p></li>
-                                        <li><p>Rayyan Bazig Nakhuda</p></li>
-                                        <li><p>Faiz Ummaithanakam Kamal</p></li>
-                                        <li><p>Abdul Hadi V T</p></li>
-                                        <li><p>Shamsa Abdulla</p></li>
-
+                                        <li>
+                                            <p>Mahammed Shafeeq</p>
+                                        </li>
+                                        <li>
+                                            <p>Sayyed Ali Shahil</p>
+                                        </li>
+                                        <li>
+                                            <p>Mahammad Ifthaz</p>
+                                        </li>
+                                        <li>
+                                            <p>Abdul Afeez</p>
+                                        </li>
+                                        <li>
+                                            <p>Fathima Nida PI</p>
+                                        </li>
+                                        <li>
+                                            <p>Mahammad Ashik</p>
+                                        </li>
+                                        <li>
+                                            <p>Mahammad Sinan</p>
+                                        </li>
+                                        <li>
+                                            <p>Saba Kulsum</p>
+                                        </li>
+                                        <li>
+                                            <p>Glen Shelton Rodrigues</p>
+                                        </li>
+                                        <li>
+                                            <p>Mohammed Niyaf</p>
+                                        </li>
+                                        <li>
+                                            <p>Mohammed Rizwan</p>
+                                        </li>
+                                        <li>
+                                            <p>Shranith N</p>
+                                        </li>
+                                        <li>
+                                            <p>Salman Faris</p>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -401,74 +417,12 @@ include("../../../components/navmenu.php"); ?>
     include("../../../components/partners.php");
     ?>
     <!--================== S-association END ==================-->
-
     <!--===================== FOOTER =====================-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-md-4">
-                    <a href=" index.html" class="logo-footer">
-                        <div class="logo-text"><span>PACE</span>CONCLAVE</div>
-                    </a>
-                    <div style="text-align: justify;" class="footer-text">
-                        PACE Conclave, initiated by P.A College of Engineering, unites academia, industry, and research through events. The inaugural event, International Conclave on Engineering Science & Technology (ICEST 25).
-                    </div>
-                    <ul class="soc-link">
-                        <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4">
-                    <h6>Contacts</h6>
-                    <ul class="footer-contacts">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://g.page/PACEMangalore?share">PA College Of Engineering <br>Mangalore,
-                                INDIA</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <a href="tel:9986096513">+91 9986096513</a>
-                            <a href="tel: 8197603006">+91 8197603006</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:icest25@pace.edu.in ">icest25@pace.edu.in </a>
-                        </li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
-                    <h6>PACE GROUPS</h6>
-                    <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/GAES.png" alt="social"></a>
-                        </li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACEs.png" alt="social"></a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row footerCredContent">
-                    <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
-                            Reserved.</div>
-
-                    </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--=================== FOOTER END ===================-->
-    <!--===================== TO TOP =====================-->
+    <?php
+    include("../../../components/footer.php");
+    ?>
+    <!--=================== FOOTER END ===================-->   
+        <!--===================== TO TOP =====================-->
     <a class="to-top active" href="#home">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>
     </a>
@@ -504,7 +458,9 @@ include("../../../components/navmenu.php"); ?>
 
 
 
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
     <div id="sp-installed"></div>
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>

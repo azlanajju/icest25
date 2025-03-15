@@ -91,6 +91,7 @@
                 <li> Clinical research</li>
                 <li> Environmental engineering</li>
                 <li> Bioprocessing</li>
+                <li>Nanobiotechnology</li> <br>
                 <a class="btn" href="./Submit/">Register Now</a>
 
             </ul>
@@ -118,10 +119,10 @@
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
                         Co-ordinator
                     </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/committee_img/shareefraza.jpeg" alt="">
+                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/committee_img/jaseela.png" alt="">
 
                     <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Shareefraju J. Ukkund</h4>
+                        <h4 data-aos="fade-up" data-aos-delay="100">Prof. Laila Jaseela A.</h4>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
                             Assistant Professor, Department of Biotechnology, PACE, Mangalore.
                         </p>
@@ -268,25 +269,17 @@
                                 <div class="overview-info-item">
                                     <ul>
                                         <li>
-                                            <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
 
                                             <h4>Dr. Ronald Valder</h4>
                                             <p>Associate Professor, Department of Biotechnology, PACE, Mangaluru</p>
                                         </li><br>
                                         <li>
-                                            <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
 
                                             <h4>Prof. Shainy Mathew</h4>
                                             <p>Assistant Professor, Department of Biotechnology, PACE, Mangaluru</p>
                                         </li><br>
+                                        
                                         <li>
-                                            <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
-
-                                            <h4>Prof. Laila Jaseela A.</h4>
-                                            <p>Assistant Professor, Department of Biotechnology, PACE, Mangaluru</p>
-                                        </li><br>
-                                        <li>
-                                            <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
 
                                             <h4>Prof. Shabeeba V.</h4>
                                             <p>Assistant Professor, Department of Biotechnology, PACE, Mangaluru</p>
@@ -306,53 +299,24 @@
                             <div class="partImages">
                                 <div class="overview-info-item">
                                     <ul class="ulli">
-                                        <li>
-                                            <p>Ayshath Shifa</p>
-                                        </li>
-                                        <li>
-                                            <p>Mehak Asi</p>
-                                        </li>
-                                        <li>
-                                            <p>Punya B. N.</p>
-                                        </li>
-                                        <li>
-                                            <p>Fathima</p>
-                                        </li>
-                                        <li>
-                                            <p>Minooha Anakkachery</p>
-                                        </li>
-                                        <li>
-                                            <p>Sahana Sirin</p>
-                                        </li>
-                                        <li>
-                                            <p>Fida Rukiya</p>
-                                        </li>
-                                        <li>
-                                            <p>Monika S</p>
-                                        </li>
-                                        <li>
-                                            <p>Shabarishree V.K.</p>
-                                        </li>
-                                        <li>
-                                            <p>Keerthana B. C.</p>
-                                        </li>
-                                        <li>
-                                            <p>Nafeesath Irfana</p>
-                                        </li>
-                                        <li>
-                                            <p>Thanushree K. S.</p>
-                                        </li>
-                                        <li>
-                                            <p>Khadeejathe Shahla</p>
-                                        </li>
-                                        <li>
-                                            <p>Pratheeksha B. K.</p>
-                                        </li> <br>
-                                        <li> 
+                                    <li><p>Amrutha</p></li>
+    <li><p>Srushtina</p></li>
+    <li><p>Thabshira Maryam</p></li>
+    <li><p>Bhoomika</p></li>
+    <li><p>Ayisha Afra</p></li>
+    <li><p>Josvitha Dsouza</p></li>
+    <li><p>Vidya</p></li>
+    <li><p>Saleela</p></li>
+    <li><p>Prateek D Shriyan</p></li>
+    <li><p>Ayisha Ziya</p></li>
+    <li><p>Samah Ummer</p></li>
+    <li><p>Kadeeja Afra</p></li>
+    <br><li> 
                                             <h5 class="title-relevant-link">
                                                 TECHNICAL STAFF
                                             </h5>
-                                            <h4> Charanraj P. J.</h4>
+                                            <h4> Charanraj P. J |  Ramla Banu </h4>
+
                                         </li>
                                         <p>for more queries:</p>
                                         <a href="mailto:biotrendcon@pace.edu.in">biotrendcon@pace.edu.in</a>

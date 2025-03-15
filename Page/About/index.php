@@ -145,74 +145,12 @@
     </section>
 
 
-
-
     <!--===================== FOOTER =====================-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-md-4">
-                    <a href=" index.html" class="logo-footer">
-                        <div class="logo-text"><span>PACE</span>CONCLAVE</div>
-                    </a>
-                    <div style="text-align: justify;" class="footer-text">
-                        PACE Conclave, initiated by P.A College of Engineering, unites academia, industry, and research through events. The inaugural event, International Conclave on Engineering Science & Technology (ICEST 25).
-                    </div>
-                    <ul class="soc-link">
-                        <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4">
-                    <h6>Contacts</h6>
-                    <ul class="footer-contacts">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://g.page/PACEMangalore?share">PA College Of Engineering <br>Mangalore,
-                                INDIA</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <a href="tel:9986096513">+91 9986096513</a>
-                            <a href="tel: 8197603006">+91 8197603006</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:info@paceconlave.com ">info@paceconlave.com </a>
-                        </li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
-                    <h6>PACE GROUPS</h6>
-                    <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/GAES.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACEs.png" alt="social"></a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row footerCredContent">
-                    <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
-                            Reserved.</div>
-
-                    </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <?php
+    include("../../components/footer.php");
+    ?>
     <!--=================== FOOTER END ===================-->
+    
     <!--===================== TO TOP =====================-->
     <a class="to-top" href="#home">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>

@@ -45,17 +45,17 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
-      <!--===================== HEADER =====================-->
-         <?php
-     $currentPage = 'Themes';
+    <!--===================== HEADER =====================-->
+    <?php
+    $currentPage = 'Themes';
 
-$headPath = "../../../";
-include("../../../components/topHeader.php");
+    $headPath = "../../../";
+    include("../../../components/topHeader.php");
 
 
-$menuPath = "../../../";
-include("../../../components/navmenu.php"); ?>
-<!--=================== HEADER END ===================-->
+    $menuPath = "../../../";
+    include("../../../components/navmenu.php"); ?>
+    <!--=================== HEADER END ===================-->
 
 
     <!-- =========================home banner start============= -->
@@ -69,7 +69,7 @@ include("../../../components/navmenu.php"); ?>
                     ENGINEERING SCIENCES AND TECHNOLOGY</p>
             </div>
             <div class="themeIcon">
-                <img src="../../../images/digitarev.png" alt="BIOTRENDCON">
+                <img src="../../../images/digitarev.png" alt="">
             </div>
 
 
@@ -113,8 +113,8 @@ include("../../../components/navmenu.php"); ?>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
                             Professor & Head, Department of CSE, PACE, Mangalore
                             <br>
-                            Email id: sharmilabp@gmail.com, <br>
-                            Mob:+91 9482254295
+                            <!-- Email id: sharmilabp@gmail.com, <br>
+                            Mob:+91 9482254295 -->
                         </p>
                     </div>
                 </div>
@@ -122,14 +122,14 @@ include("../../../components/navmenu.php"); ?>
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
                         Co-Chair
                     </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" style="width: 150px;" class="chair-img" height="150px" src="../../../images/committee_img/DrManjula.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-delay="100" style="width: 150px;" class="chair-img" height="150px" src="../../../images/cs/haffeez.png" alt="">
                     <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Manjula V</h4>
+                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Hafeez M. K.</h4>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
-                            Professor & Head, Department of AIML, PACE, Mangalore
+                            Associate Professor, Department of CSE, PACE, Mangalore
                             <br>
-                            Email id: sharmilabp@gmail.com, <br>
-                            Mob:+91 9482254295
+                            <!-- Email id: sharmilabp@gmail.com, <br>
+                            Mob:+91 9482254295 -->
                         </p>
                     </div>
                 </div>
@@ -137,14 +137,14 @@ include("../../../components/navmenu.php"); ?>
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">
                         Co-ordinator
                     </h3>
-                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/committee_img/shamna.jpg" alt="">
+                    <img data-aos="fade-up" data-aos-delay="100" class="chair-img" height="150px" src="../../../images/cs/saleem.png" alt="">
 
                     <div class="overview-info-item">
-                        <h4 data-aos="fade-up" data-aos-delay="100">Dr. Shamna N V</h4>
+                        <h4 data-aos="fade-up" data-aos-delay="100"> Dr. Saleem Malik</h4>
                         <p data-aos="fade-up" data-aos-delay="100" style="line-height: 2 ">
                             Associate Professor, CSE Dept, PACE, Mangalore <br>
-                            Email id: shamnanv@gmail.com <br>
-                            Mob: 9449503087 <br>
+                            <!-- Email id: shamnanv@gmail.com <br>
+                            Mob: 9449503087 <br> -->
                         </p>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ include("../../../components/navmenu.php"); ?>
                     <h3 data-aos="fade-up" data-aos-delay="100" class="title-line-left">Scientific Advisory Committee</h3>
                     <div class="overview-info-item">
                         <ul>
-                            
+
                             <li>
                                 <img class="sacImg" src="../../../images/cs/guruji.jpg" alt="">
                                 <h4>Dr. D.S. Guru</h4>
@@ -357,8 +357,8 @@ include("../../../components/navmenu.php"); ?>
                                 <div class="overview-info-item">
                                     <ul>
                                         <li>
-                                            <h4>Afsar Baig M</h4>
-                                            <p>Assistant Professor, Department of AIML, PACE, Mangaluru</p>
+                                            <h4>Mr. Habeeb Ur Rehman P. B</h4>
+                                            <p>Assistant Professor, Department of CSE, PACE, Mangaluru</p>
                                         </li><br>
                                         <li>
                                             <h4>Prof. Divya K K</h4>
@@ -376,8 +376,18 @@ include("../../../components/navmenu.php"); ?>
                                             <h5 class="title-relevant-link">
                                                 TECHNICAL STAFF
                                             </h5>
-                                            <h4> Mr. Haneef</h4>
-                                            <h4> Mr. Abdul Nasir k.</h4>
+                                        <!-- <li>
+                                            <p>Mr. Mohammad Haneef</p>
+                                        </li> -->
+                                        <li>
+                                            <p>Mr. Abdul Nasir K.</p>
+                                        </li>
+                                        <li>
+                                            <p>Mr. Hamza</p>
+                                        </li>
+                                        <li>
+                                            <p>Ms. Deepthi</p>
+                                        </li>
                                         </li>
                                     </ul>
                                 </div>
@@ -394,33 +404,35 @@ include("../../../components/navmenu.php"); ?>
                                 <div class="overview-info-item">
                                     <ul class="ulli">
                                         <li>
-                                            <p>Ms. Fathima Musfira</p>
+                                            <p>Mr. Abdul Khader Afran</p>
                                         </li>
                                         <li>
-                                            <p>Ms. Khatheejathul Aifa</p>
+                                            <p>Ms. Zulfa Mariyam</p>
                                         </li>
                                         <li>
-                                            <p>Ms. Nafeesa Rihana</p>
+                                            <p>Ms. Riza</p>
                                         </li>
                                         <li>
-                                            <p>Mr. Shaikh Mohammad Ehad</p>
+                                            <p>Mr. Bilal</p>
                                         </li>
                                         <li>
-                                            <p>Mr. Mohammed Musthafa</p>
+                                            <p>Mr. Shakeeb</p>
                                         </li>
                                         <li>
-                                            <p>Mr. K Mahammad Ramzeen</p>
+                                            <p>Ms. Swathi</p>
                                         </li>
                                         <li>
-                                            <p>Ms. Afra Abdul Aziz</p>
+                                            <p>Mr. Mishab</p>
                                         </li>
                                         <li>
-                                            <p>Mr. Mahammed Razeen</p>
+                                            <p>Mr. Hathim</p>
                                         </li>
                                         <li>
-                                            <p>Mr. Nada Abdulla T. A.</p>
+                                            <p>Ms. Sahana</p>
                                         </li>
-
+                                        <li>
+                                            <p>Ms. Azkiya</p>
+                                        </li>
                                         <br>
                                         <strong>for more queries:</strong> <br>
                                         <a href="mailto: digitarev@pace.edu.in">digitarev@pace.edu.in</a>
@@ -556,7 +568,9 @@ include("../../../components/navmenu.php"); ?>
 
 
 
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
     <div id="sp-installed"></div>
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>

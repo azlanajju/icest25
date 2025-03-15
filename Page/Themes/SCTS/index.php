@@ -46,8 +46,8 @@
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
     <!--===================== HEADER =====================-->
-       <?php
-     $currentPage = 'Themes';
+    <?php
+    $currentPage = 'Themes';
 
     $headPath = "../../../";
     include("../../../components/topHeader.php");
@@ -69,12 +69,8 @@
                     ENGINEERING SCIENCES AND TECHNOLOGY</p>
             </div>
             <div class="themeIcon">
-                <!-- <img src="../../../images/biotrend.png" alt="BIOTRENDCON"> -->
-                <h1> SEMI-COMM TECH SUMMIT</h1>
-                <h3> INTERNATIONAL CONFERENCE ON EMERGING TRENDS IN ELECTRONICS AND COMMUNICATION</h3>
-                <h1></h1>
+                <img src="../../../images/scst.png" alt="">
             </div>
-
 
         </div>
 
@@ -87,12 +83,12 @@
         <div class="container">
             <h2 data-aos="fade-up" data-aos-delay="50" class="title-line">Theme Tracks</h2>
             <ul class="schedule-cover shcCov">
-                <li> Wireless Communication</li>
+                <li> Communicatoin Networks & Security</li>
                 <li> Embedded System</li>
                 <li> Signal and Image PthemeCSrocessing</li>
                 <li> Electromagnetics and Antenna Design</li>
                 <li> VLSI and MEMS</li>
-                <li> Communication networks and Security</li>
+                <li> Power and Energy Systems</li>
                 <br>
                 <a class="btn" href="./Submit/">Register Now</a>
 
@@ -199,8 +195,8 @@
 
                             <li>
                                 <img class="sacImg" src="../../../images/ecCommitte/habeebi.jpg" alt="">
-                                <h4 >Dr. Mohamed Hadi Habaebi</h4>
-                                <p>   Professor
+                                <h4>Dr. Mohamed Hadi Habaebi</h4>
+                                <p> Professor
                                     Department of Electrical & Computer Engineering
                                     Faculty of Engineering
                                     International Islamic University Malaysia</p>
@@ -208,19 +204,19 @@
 
                             <li>
                                 <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
-                                <h4 >Dr. A.M. Khan</h4>
-                                <p>   Professor &amp; Chairperson, 
+                                <h4>Dr. A.M. Khan</h4>
+                                <p> Professor &amp; Chairperson,
                                     Dept. of Electronics, Mangalore University,
-                                                               Mangalore</p>
+                                    Mangalore</p>
                             </li> <br>
 
                             <li>
                                 <img class="sacImg" src="../../../images/ecCommitte/usha.jpg" alt="">
-                                <h4 >     Dr. N. Usha Rani,</h4>
-                                <p>       Dept. of Electronics & Communications
+                                <h4> Dr. N. Usha Rani,</h4>
+                                <p> Dept. of Electronics & Communications
                                     Engineering & Dean-School of Electrical,
-                                   Electronics & Communication Engineering
-                                      </p>
+                                    Electronics & Communication Engineering
+                                </p>
                             </li>
 
 
@@ -237,13 +233,13 @@
                             <li>
                                 <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
                                 <h4>Dr. Kiran Kumar </h4>
-                                <p>Associate Professor, Department of Electronics and Communication, 
+                                <p>Associate Professor, Department of Electronics and Communication,
                                     AJ Institute of Technology, Kottara Chowki, Mangalore-575006</p>
                             </li><br>
                             <li>
                                 <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
                                 <h4> Dr. Prasanna Kumar. C </h4>
-                                <p>Professor, Department of Electronics and Communication, 
+                                <p>Professor, Department of Electronics and Communication,
                                     Yenepoya Institute of Technology, , Vidyanagar, Moodabidri,
                                     Mangalore, Karnataka – 574225.</p>
                             </li><br>
@@ -276,15 +272,15 @@
                             </li><br>
                             <li>
                                 <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
-                                <h4>         Dr. A. R. Vijay Babu</h4>
-                                <p>A  Associate Professor
+                                <h4> Dr. A. R. Vijay Babu</h4>
+                                <p>A Associate Professor
                                     Dept. of Electrical & Electronics Engineering
-                                                       </p>
+                                </p>
                             </li><br>
                             <li>
                                 <img class="sacImg" src="../../../images/blankPerson.jpg" alt="">
                                 <h4> Dr. P. Sambaiah</h4>
-                                <p>     Associate Professor
+                                <p> Associate Professor
                                     Dept. of Electronics & Communications Engineering</p>
                             </li><br>
                         </ul>
@@ -359,8 +355,8 @@
                                             <p>Associate Professor, Department of ECE, PACE, Mangaluru</p>
                                         </li><br>
                                         <li>
-                                            <h4>Prof. Litty Mol Mathew</h4>
-                                            <p>Assistant Professor, Department of ECE, PACE, Mangaluru</p>
+                                            <h4>Prof. Vittal Bhat M</h4>
+                                            <p> Assistant Professor, Dept of ECE PACE, Mangaluru</p>
                                         </li><br>
                                         <li>
                                             <h4>Prof. Tenson Jose.</h4>
@@ -370,7 +366,8 @@
                                             <h4>Prof. Zakir Bellary
                                             </h4>
                                             <p>Assistant Professor, Department of ECE, PACE, Mangaluru</p>
-                                        </li> <br>                                        <li>
+                                        </li> <br>
+                                        <li>
                                             <h4>Prof. Mohammed Saleem.</h4>
                                             <p>Assistant Professor, Department of ECE, PACE, Mangaluru</p>
                                         </li>
@@ -394,22 +391,42 @@
                             <div class="partImages">
                                 <div class="overview-info-item">
                                     <ul class="ulli">
-                                        <li><p>Fathimath Nusaiba</p></li>
-                                        <li><p>Nidhi Shetty</p></li>
-                                        <li><p>Shailendra</p></li>
-                                        <li><p>Khadeejathul Thshfiya</p></li>
-                                        <li><p>Mohammed Raihan</p></li>
-                                        <li><p>Aman Ashraf</p></li>
-                                        <li><p>Afham Baig</p></li>
-                                        <li><p>Munazza Begam</p></li>
-                                        <li><p>Mohammad Mufarriz</p></li>
-                                        <li><p>Mohammad Sinan</p></li>
-                                        <li><p>Sunaina Taj</p></li>
-                                        <li><p>Mavil Fernandes</p></li>
-                                        <li><p>Samarth</p></li>
-                                        <li><p>Mohammed Tufail</p></li>
-                                        <li><p>Ahamad Fahiz</p></li>
-                                        <br>
+                                        <li>
+                                            <p>Ayisha Hala T P</p>
+                                        </li>
+                                        <li>
+                                            <p>Fathima Noora</p>
+                                        </li>
+                                        <li>
+                                            <p>Vikshitha</p>
+                                        </li>
+                                        <li>
+                                            <p>Prajwal P</p>
+                                        </li>
+                                        <li>
+                                            <p>Nikitha KR</p>
+                                        </li>
+                                        <li>
+                                            <p>Mohd Umair</p>
+                                        </li>
+                                        <li>
+                                            <p>Ibrahim Swabeeh</p>
+                                        </li>
+                                        <li>
+                                            <p>Asiya Safa</p>
+                                        </li>
+                                        <li>
+                                            <p>Aysha Nahshal</p>
+                                        </li>
+                                        <li>
+                                            <p>Mariam Fahima</p>
+                                        </li>
+                                        <li>
+                                            <p>Mohammed Musthafa</p>
+                                        </li>
+                                        <li>
+                                            <p>Mayan Sheik</p>
+                                        </li> <br>
                                         <strong>for more queries:</strong> <br>
                                         <a href="mailto:semicomm_ece@pace.edu.in">semicomm_ece@pace.edu.in</a>
                                         <p> +91 9945298123 <br>+91 9113648762
@@ -440,73 +457,12 @@
     ?>
     <!--================== S-association END ==================-->
 
-    <!--===================== FOOTER =====================-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-md-4">
-                    <a href=" index.html" class="logo-footer">
-                        <div class="logo-text"><span>PACE</span>CONCLAVE</div>
-                    </a>
-                    <div style="text-align: justify;" class="footer-text">
-                        PACE Conclave, initiated by P.A College of Engineering, unites academia, industry, and research through events. The inaugural event, International Conclave on Engineering Science & Technology (ICEST 25).
-                    </div>
-                    <ul class="soc-link">
-                        <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4">
-                    <h6>Contacts</h6>
-                    <ul class="footer-contacts">
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://g.page/PACEMangalore?share">PA College Of Engineering <br>Mangalore,
-                                INDIA</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <a href="tel:9986096513">+91 9986096513</a>
-                            <a href="tel: 8197603006">+91 8197603006</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:icest25@pace.edu.in ">icest25@pace.edu.in </a>
-                        </li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
-                    <h6>PACE GROUPS</h6>
-                    <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/GAES.png" alt="social"></a>
-                        </li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../../assests/files/PACEs.png" alt="social"></a></li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row footerCredContent">
-                    <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
-                            Reserved.</div>
-
-                    </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--=================== FOOTER END ===================-->
-    <!--===================== TO TOP =====================-->
+       <!--===================== FOOTER =====================-->
+       <?php
+    include("../../../components/footer.php");
+    ?>
+    <!--=================== FOOTER END ===================--> 
+     <!--===================== TO TOP =====================-->
     <a class="to-top active" href="#home">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>
     </a>
@@ -542,7 +498,9 @@
 
 
 
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
     <div id="sp-installed"></div>
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
