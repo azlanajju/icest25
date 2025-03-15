@@ -47,7 +47,7 @@
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
 
-<!-- under development comments -->
+    <!-- under development comments -->
     <!-- <div style="position: fixed;top: 0;left: 0;z-index: 999999999999999;" class=" .newsContainer">
         <div>
             <marquee class="marquee" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="scroll" scrollamount="7">
@@ -199,18 +199,18 @@
                 <p style="text-align: justify;">ICEST (International conclave on Engineering Sciences and Technology)is an international peer reviewed event to bring together academia, engineers, students, and researchers in the field of Engineering, Science and Technology, making it an ideal platform for sharing knowledge, fostering industry-academic collaborations, and evaluating emerging technologies from around the world. Participants will be able to exchange ideas in order to profit from each other's contributions, as well as learn about current research being conducted throughout the world. The conference's main purpose is to support research and development activities that will be needed in the future, with an emphasis on all potential and recent fields of Engineering. Several well-known professionals in the fields of Engineering will share their knowledge and experience with the attendees. This conference will serve as a global platform for the presentation of novel research findings, as well as the exchange and dissemination of creative and unique research experiences. The conference aims to enhance the state-of-the-art in all fields of Engineering by encouraging novel, high-quality research discoveries and innovative solutions to upcoming and challenging engineering problems.</p>
                 <div class="">
                     <br>
-                        <div class="our-history-left">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title-">Archives</h4>
-                            <p>
-                                <strong>ICEST'24: </strong>
+                    <div class="our-history-left">
+                        <h4 data-aos="fade-up" data-aos-delay="50" class="title-">Archives</h4>
+                        <p>
+                            <strong>ICEST'24: </strong>
                             The conference of, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.
-                            </p>
-                            <ul style="list-style-type:square;" class="relevent-link"> <br>
-                                <li class="relevent-link"><a class="relevent-link" href="https://icest24.paceconclave.com/">ICEST'24</a></li>
-                            </ul>
+                        </p>
+                        <ul style="list-style-type:square;" class="relevent-link"> <br>
+                            <li class="relevent-link"><a class="relevent-link" href="https://icest24.paceconclave.com/">ICEST'24</a></li>
+                        </ul>
 
-                        </div>
                     </div>
+                </div>
             </div>
 
 
@@ -237,8 +237,20 @@
                         <div class="our-history-left">
                             <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">Publication</h2>
                             <p>
-                                All the accepted papers will be published in conference proceedings with ISBN
-                                Selected papers will be published in reputed journals (based on norms).
+                            <p>All the accepted papers will be published in conference proceedings with <strong>ISBN</strong>. Selected papers will be published in a <strong>Special Issue (Web of Science Indexed Journal)</strong>, and high-quality papers can be published in reputed journals indexed in <strong>Scopus/Web of Science</strong> (based on norms & journal publishing charges).</p>
+                            <br>
+                            <p><strong>For ICIBS & BIOTRENDCON:</strong><br>
+                                <em>Journal of Polymer & Composites</em>
+                            </p><br>
+
+                            <p><strong>For MECH TECH & IC-ICE:</strong><br>
+                                <em>Journal of Mines, Metals & Fuels</em>
+                            </p><br>
+
+                            <p><strong>For SEMI-COMM-TECH-SUMMIT, DIGITAREV & ARTILLIGANCE:</strong><br>
+                                <em>International Journal of Intelligent Systems and Applications in Engineering</em>
+                            </p>
+
                             </p>
                             <h3 class="title-relevant-link">Relevant Links</h3>
                             <ul style="list-style-type:square;" class="relevent-link">
@@ -309,11 +321,11 @@
                             <li></li> <br>
                             <li><a class="btn" href="./Page/Themes/MechTech/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/MechTech/Submit">Submit Now</a></li>
                         </ul>
- 
+
                     </div>
                 </li>
                 <li>
-    
+
                     <div data-aos="fade-up" data-aos-delay="50" class="schedule-header">
                         <div class="schedule-time">Theme 2</div>
                         <div class="schedule-title">IC ICE: INTERNATIONAL CONCLAVE - IN CIVIL ENGINEERING</div>
@@ -441,9 +453,9 @@
 
 
     <!--===================== S-association =====================-->
-<?php
+    <?php
     include("./components/partners.php");
-?>
+    ?>
 
 
     <!--================== S-association END ==================-->
