@@ -177,32 +177,32 @@
                 <li>
                     <div data-aos="fade-up" data-aos-delay="50" class="schedule-header">
                         <div class="schedule-time">9:10 AM </div>
-                        <div class="schedule-title"> Introduction to ICEST-2024 by General Chair
+                        <div class="schedule-title"> Introduction to ICEST-2025 by General Chair
                         </div>
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </div>
                     <div class="schedule-content">
-                        <p>The General Chair introduces the ICEST-2024 event, providing an overview and setting the tone for the day's activities.</p>
+                        <p>The General Chair introduces the ICEST-2025 event, providing an overview and setting the tone for the day's activities.</p>
                     </div>
                 </li>
                 <li>
                     <div data-aos="fade-up" data-aos-delay="50" class="schedule-header">
                         <div class="schedule-time">9:30 AM</div>
-                        <div class="schedule-title">Talk of keynote Speaker for ICEST-2024</div>
+                        <div class="schedule-title">Talk of keynote Speaker for ICEST-2025</div>
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </div>
                     <div class="schedule-content">
-                        <p>A keynote speaker delivers a talk, sharing valuable insights and expertise related to the theme of ICEST-2024.</p>
+                        <p>A keynote speaker delivers a talk, sharing valuable insights and expertise related to the theme of ICEST-2025.</p>
                     </div>
                 </li>
                 <li>
                     <div data-aos="fade-up" data-aos-delay="50" class="schedule-header">
                         <div class="schedule-time">10: 30 AM </div>
-                        <div class="schedule-title">Felicitation of Keynote Speaker by ICEST-2024 Chair</div>
+                        <div class="schedule-title">Felicitation of Keynote Speaker by ICEST-2025 Chair</div>
                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
                     </div>
                     <div class="schedule-content">
-                        <p>The chair of ICEST-2024 expresses gratitude and honors the keynote speaker for their contribution to the event.</p>
+                        <p>The chair of ICEST-2025 expresses gratitude and honors the keynote speaker for their contribution to the event.</p>
                     </div>
                 </li>
                 <li>
@@ -331,7 +331,7 @@
             <div class="container">
                 <div class="row footerCredContent">
                     <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights Reserved.</div>
+                        <div class="copyright">© 2025. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights Reserved.</div>
                     </div>
                     <div class="footerCredits"><a href="https://codewizy.in"><img src="../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
                 </div>
