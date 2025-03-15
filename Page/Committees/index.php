@@ -79,73 +79,94 @@
   </div>
   <!--================ PAGE-TITLE END =================-->
 
-  <!-- ================= chairs and conveniors============ -->
-  <section class="overview">
-    <div class="container">
-      <div class="overview-info-item">
-        <ul>
-          <div data-aos="fade-up" data-aos-delay="50" class="row">
-            <li class="col-sm">
-              <h3 class="title-line-left">
-                <p class="p-2">General Chair</p>
-              </h3>
-              <img height="150" src="../../images/committee_img/pricipalPA.jpg" alt="" />
-              <h4>Dr. Ramis M K</h4>
-              <p>
-                Principal, <br />
-                P.A College of Engineering, Mangalore
-              </p>
-            </li>
-            <br />
-            <li class="col-sm">
-              <h3 class="title-line-left">
-                <p class="p-2">General Co-Chair</p>
-              </h3>
-              <img height="150" src="../../images/committee_img/DrPrashanthPaiM.jpeg" alt="" />
+    <!-- ================= chairs and conveniors============ -->
+    <section class="overview">
+        <div class="container">
+            <div class="overview-info-item">
+                <ul>
+                    <div data-aos="fade-up" data-aos-delay="50" class="row">
+                        <li class="col-sm">
+                            <h3 class="title-line-left ">
+                                <p class="p-2 "> General Chair</p>
+                            </h3>
+                            <img height="150" src="../../images/committee_img/pricipalPA.jpg" alt="">
+                            <h4>Dr. Ramis M K</h4>
+                            <p>Principal, <br>
+                                P.A College of Engineering, Mangalore</p>
+                        </li><br>
+                        <li class="col-sm">
+                            <h3 class="title-line-left ">
+                                <p class="p-2"> General Co-Chair</p>
+                            </h3>
+                            <img height="150" src="../../images/committee_img/sharmila.jpg" alt="">
 
-              <h4>Dr. Prashanth Pai</h4>
-              <p>
-                Associate Professor & Head, <br />
-                Department of Mechanical Engineering, <br />
-                P.A College of Engineering, Mangalore
-              </p>
-            </li>
-            <br />
-          </div>
-          <div class="p-3"></div>
-          <hr />
-          <div class="p-3"></div>
-          <h3 class="title-line">Convenors</h3>
-          <div class="p-3"></div>
-          <div data-aos="fade-up" data-aos-delay="50" class="row">
-            <li class="col-sm">
-              <img height="150" src="../../images/committee_img/SyedAbdulHayan.jpeg" alt="" />
-              <h4>Dr. Sayed Abdulhayan</h4>
-              <p>
-                Professor, CSE Dept, PACE, Mangalore <br />
-                Email: sabdulhayan@gmail.com
-              </p>
-            </li>
-            <br />
-            <li class="col-sm">
-              <img width="150" height="150" src="../../images/committee_img/shareefraza.jpeg" alt="" />
-              <h4>Dr. Shareefraju J. Ukkund</h4>
-              <p>
-                Assistant Professor, Department of Biotechnology, PACE,
-                Mangalore.<br />
-                <!-- Email: hod_aiml@pace.edu.in -->
-              </p>
-            </li>
-            <br />
-          </div>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- ================= chairs and conveniors end============ -->
+                            <h4>Dr. Sharmila Kumari</h4>
+                            <p data-aos="fade-up" data-aos-delay="100" >
+                                Vice pricipal, Professor & Head, Department of CSE <br> PACE, Mangalore
+
+                            </p>
+                        </li><br>
+                    </div>
+                    <div class="p-3"></div>
+                    <!-- <hr> -->
+                    <div class="p-3"></div>
+                    <h3 class="title-line">Convenors</h3>
+                    <div class="p-3"></div>
+                    <div data-aos="fade-up" data-aos-delay="50" class="row">
+                        <li class="col-sm">
+                            <img width="150" height="150" src="../../images/committee_img/shareefraza.jpeg" alt="">
+                            <h4>Dr. Shareefraju J. Ukkund</h4>
+                            <p>Assistant Professor, Department of Biotechnology,<br> PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+
+
+                        </li><br>
+                        <li class="col-sm">
+
+                            <img width="150" height="150" src="../../images/committee_img/DrPrashanthPaiM.jpeg" alt="">
+                            <h4>Dr. Prashanth Pai</h4>
+                            <p>Assistant Professor & Head of Department of Mechanical Engineering, PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+                        </li><br>
+                    </div>
+                    <br>
+                    <!-- <hr> -->
+                    <div class="p-3"></div>
+                    <h3 class="title-line">Publishing Co-ordinators</h3>
+                    <div class="p-3"></div>
+                    <div data-aos="fade-up" data-aos-delay="50" class="row">
+                        <li class="col-sm">
+                            <img width="150" height="150" src="../../images/committee_img/SyedAbdulHayan.jpeg" alt="">
+                            <h4>Dr. Sayed Abdul hayan</h4>
+                            <p>Associate Professor, Department of Computer Science & Engineering,<br> PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+<style>
+    img{
+        object-fit: cover !important;
+    }
+</style>
+
+                        </li><br>
+                        <li class="col-sm">
+
+                            <img width="150" height="150" src="../../images/adcommittee/abdulrazak.png" alt="">
+                            <h4>Dr. Abdul Razak</h4>
+                            <p> Professor, Department Mechanical Engineering <br> PACE, Mangalore.<br>
+                                <!-- Email: hod_aiml@pace.edu.in -->
+                            </p>
+                        </li>\
+                    </div>               
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ================= chairs and conveniors end============ -->
 
   <!--======= GENERAL ADVISOR COMMITTEE BODY START  =============-->
-  <section class="overview">
+  <section style="margin-top: -150px;" class="overview">
     <div class="container">
       <h3 data-aos="fade-up" data-aos-delay="50" class="title-line">
         General Advisory Committee

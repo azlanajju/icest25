@@ -46,7 +46,8 @@
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
      <!--===================== HEADER =====================-->
-     <?php
+        <?php
+     $currentPage = 'Themes';
 
 $headPath = "../../../";
 include("../../../components/topHeader.php");
@@ -92,7 +93,7 @@ include("../../../components/navmenu.php"); ?>
                 <li> Sustainability and Environmental Engineering</li>
                 <li> Water Resources and Irrigation Engineering</li>
                 <br>
-                <a class="btn" href="../../../registrations/register2.html">Register Now</a>
+                <a class="btn" href="./Submit/">Register Now</a>
 
             </ul>
         </div>

@@ -46,7 +46,8 @@
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
     <!--===================== HEADER =====================-->
-    <?php
+       <?php
+     $currentPage = 'Themes';
 
     $headPath = "../../../";
     include("../../../components/topHeader.php");
@@ -56,7 +57,7 @@
     include("../../../components/navmenu.php"); ?>
     <!--=================== HEADER END ===================-->
 
-    
+
     <!-- =========================home banner start============= -->
     <section class="banner2" id="home">
         <div class="mainSlider" style="max-height: none; overflow: visible; height: 80vh;">
@@ -93,7 +94,7 @@
                 <li> Nanotechnology</li>
                 <li> Applied Physics</li>
                 <br>
-                <a class="btn" href="../../../registrations/register4.html">Register Now</a>
+                <a class="btn" href="./Submit/">Register Now</a>
 
             </ul>
         </div>

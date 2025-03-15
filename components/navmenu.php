@@ -13,13 +13,13 @@
                         <li class="dropdown">
                             <a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes">Themes<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/MechTech">MECH-TECH</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/ICICE">IC ICE</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/Digitarev">DIGITAREV 2025</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/SCTS">SEMI-COMM TECH SUMMIT</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/Biotrendcon">BIOTRENDCON 2025</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/Artelligence">ARTELLIGENCE 2025</a></li>
-                                <li><a class="<?php echo ($currentPage == 'Themes') ? 'activeNav' : ''; ?>" href="<?php echo $menuPath; ?>Page/Themes/ICIBS">ICIBS 2025</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/MechTech">MECH-TECH</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/ICICE">IC ICE</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/Digitarev">DIGITAREV 2025</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/SCTS">SEMI-COMM TECH SUMMIT</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/Biotrendcon">BIOTRENDCON 2025</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/Artelligence">ARTELLIGENCE 2025</a></li>
+                                <li><a  href="<?php echo $menuPath; ?>Page/Themes/ICIBS">ICIBS 2025</a></li>
 
                             </ul>
                         </li>

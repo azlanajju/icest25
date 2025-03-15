@@ -13,28 +13,28 @@
     <link rel="shortcut icon" href="https://localhost:5001/Content/assets/img/favicon.png">
     <!-- ===================== STYLE ===================== -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assests/files/slick.min.css">
-    <link rel="stylesheet" href="./assests/files/bootstrap-grid.css">
-    <link rel="stylesheet" href="./assests/files/all.css">
-    <link rel="stylesheet" href="./assests/files/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="./assests/files/style.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../assests/files/slick.min.css">
+    <link rel="stylesheet" href="../../assests/files/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../assests/files/all.css">
+    <link rel="stylesheet" href="../../assests/files/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../../assests/files/style.css">
+    <link rel="stylesheet" href="../../style.css">
 
-    <script src="./assests/files/jquery-2.2.4.min.js"></script>
+    <script src="../../assests/files/jquery-2.2.4.min.js"></script>
 
 
-    <link rel="stylesheet" type="text/css" href="./assests/files/animate.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/animate.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/settings.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/style_002.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/animate.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/animate.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/settings.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/style_002.css">
+    <link rel="stylesheet" type="text/css" href="../../assests/files/responsive.css">
 
     <!-- ===================== toster ===================== -->
-    <link href="./assests/files/toastr.min.css" rel="stylesheet">
-    <script src="./assests/files/toastr.min.js"></script>
-    <script src="./assests/files/toastr.init.js"></script>
-    <script type="module" src="./assests/files/hook.js"></script>
+    <link href="../../assests/files/toastr.min.css" rel="stylesheet">
+    <script src="../../assests/files/toastr.min.js"></script>
+    <script src="../../assests/files/toastr.init.js"></script>
+    <script type="module" src="../../assests/files/hook.js"></script>
 
 
     <style>
@@ -45,86 +45,19 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+      <!--===================== HEADER =====================-->
+      <?php
+    $currentPage = 'Register';
+
+    $headPath = "../../";
+
+    include("../../components/topHeader.php");
+
+
+    $menuPath = "../../";
+    include("../../components/navmenu.php");
+    ?>
     <!--===================== HEADER =====================-->
-    <header class="header-two">
-        <a href="#" class="nav-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-        <div class="header-two-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-4 col-lg-4 logo-two-cover">
-                        <a href="https://localhost:5001/Home/Index">
-                            <img class="logoimg" src="./images/logos/Conclave_Logo.png" alt="logo">
-                        </a>
-                        <a href="">
-                            <img class="logoimg" src="./images/logos/ICEST_Logo.png" alt="logo">
-
-                        </a>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href="tel:09986096513"><i class="fas fa-phone"></i>+91 9986096513</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-2 header-top-info">
-                        <ul class="header-two-phone header-cont">
-                            <li><a href=""><i class="fas fa-map-marker-alt"></i>Mangalore, INDIA</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-3 header-top-info">
-                        <ul class="header-two-adr header-cont">
-                            <li><a href=""><i class="fas fa-globe"></i>www.pace.edu.in</a></li>
-                        </ul>
-                    </div>
-
-
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </header>
-    <!--=================== HEADER END ===================-->
-
-
-
-
-
-    <div class="header-menu header-menu-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="nav-menu flexnav">
-                        <ul class="nav-list">
-                            <li><a href="./">Home</a></li>
-                            <li><a href="./patrons.html">Patrons</a></li>
-                            <li><a href="./aboutus.html">About Us</a></li>
-                            <li><a href="./themes.html">Themes</a></li>
-                            <li class="dropdown">
-                                <a href="#">Committees<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul>
-                                    <li><a href="./adCommitee.html">General Advisory Committees</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./speakers.html">Speakers</a></li>
-                            <li><a class="activeNav" href="./register.html">Register</a></li>
-                            <li><a href="./submissionThemes.html">Submission</a></li>
-                            <li><a href="./schedule.html">Schedule</a></li>
-                            <li><a href="./contactus.html">Contact Us</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -132,17 +65,17 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1">
     <meta name="HandheldFriendly" content="true">
-    <link type="text/css" rel="stylesheet" href="./assests/files/5e6b428acc8c4e222d1beb91e3ac.css">
-    <link type="text/css" rel="stylesheet" href="./assests/files/payment_styles0de4.css">
-    <link type="text/css" rel="stylesheet" href="./assests/files/payment_feature0de4.css">
+    <link type="text/css" rel="stylesheet" href="../../assests/files/5e6b428acc8c4e222d1beb91e3ac.css">
+    <link type="text/css" rel="stylesheet" href="../../assests/files/payment_styles0de4.css">
+    <link type="text/css" rel="stylesheet" href="../../assests/files/payment_feature0de4.css">
 
 
-    <script src="./assests/files/prototype.forms.js" type="text/javascript"></script>
-    <script src="./assests/files/jotform.forms0de4.js" type="text/javascript"></script>
-    <script defer="defer" src="./assests/files/punycode.js"></script>
-    <script src="./assests/files/jquery-1.8.0.min33fa.js" type="text/javascript"></script>
-    <script defer="defer" src="./assests/files/maskedinput.min33fa.js" type="text/javascript"></script>
-    <script defer="defer" src="./assests/files/jquery.maskedinput.min33fa.js" type="text/javascript"></script>
+    <script src="../../assests/files/prototype.forms.js" type="text/javascript"></script>
+    <script src="../../assests/files/jotform.forms0de4.js" type="text/javascript"></script>
+    <script defer="defer" src="../../assests/files/punycode.js"></script>
+    <script src="../../assests/files/jquery-1.8.0.min33fa.js" type="text/javascript"></script>
+    <script defer="defer" src="../../assests/files/maskedinput.min33fa.js" type="text/javascript"></script>
+    <script defer="defer" src="../../assests/files/jquery.maskedinput.min33fa.js" type="text/javascript"></script>
 
 
 
@@ -156,7 +89,7 @@
             <h1 class="title-line-left">Registration Form</h1>
             <div class="breadcrumbs">
                 <ul>
-                    <li><a href="./">Home</a></li>
+                    <li><a href="../../">Home</a></li>
                     <li> Register</li>
                 </ul>
             </div>
@@ -207,8 +140,8 @@
                         <h6>Delegates within India</h6>
                         <italic style="font-style: italic;font-size: 15px;">(Including International Students) </italic> <br>
                         <ul class="ulli2">
-                            <li>Research Organisations and industry Personnel: <strong>₹ 2000/-</strong> </li>
-                            <li>Research Scholars. Students and Faculty Members: <strong> ₹1000/-</strong></li>
+                            <li>Research Organisations and industry Personnel: <strong>₹ 2500/-</strong> </li>
+                            <li>Research Scholars. Students and Faculty Members: <strong> 1500/-</strong></li>
                         </ul>
                         <h6>Foreign Delegates </h6>
                         <ul class="ulli2">
@@ -256,7 +189,7 @@
 
                 <div class="col-12 col-sm-8">
                     <!-- ========== form start =========== -->
-                    <form action="./admin/register.php" class="form" method="POST" enctype="multipart/form-data">
+                    <form action="../../admin/register.php" class="form" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="Track" class="form-label">SELECT THE THEME :</label>
                             <select onchange="changeContact()" class="form-select" name="Theme" id="Track" required>
@@ -265,6 +198,8 @@
                                 <option value="DigitaRev">DIGITAREV: UNVEILING THE NEXT WAVE-INTERNATIONAL CONFERENCE ON DIGITAL RENAISSANCE</option>
                                 <option value="Semi-Comm Tech Summit">SEMI-COMM TECH SUMMIT: “INTERNATIONAL CONFERENCE ON EMERGING TRENDS IN ELECTRONICS AND COMMUNICATION</option>
                                 <option value="BIOTRENDCON">BIOTRENDCON: INTERNATIONAL CONFERENCE ON EMERGING TRENDS IN BIOTECHNOLOGY</option>
+                                <option value="ARTELLIGENCE">ARTELLIGENCE 2025: INTERNATIONAL CONFERENCE CONFERENCE ON ARTIFICIAL INTELLIGENCE</option>
+
                                 <option value="ICIBS">ICIBS: INTERNATIONAL CONCLAVE - IN BASIC SCIENCE</option>
                             </select>
                         </div>
@@ -414,8 +349,8 @@
 
 
 
-    <script src="./assests/files/smoothscroll.min33fa.js"></script>
-    <script src="./assests/files/errorNavigation33fa.js"></script>
+    <script src="../../assests/files/smoothscroll.min33fa.js"></script>
+    <script src="../../assests/files/errorNavigation33fa.js"></script>
 
     <!--===================== FOOTER =====================-->
     <footer>
@@ -457,12 +392,12 @@
                 <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
                     <h6>PACE GROUPS</h6>
                     <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="./assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="./assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="./assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="./assests/files/GAES.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="./assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="./assests/files/PACEs.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACE%20Group.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/CBS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/GAES.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/IIS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACEs.png" alt="social"></a></li>
                     </ul>
                 </div>
             </div>
@@ -473,7 +408,7 @@
                     <div class="col-12 col-md-4">
                         <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights Reserved.</div>
                     </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="./images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
+                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
                 </div>
             </div>
         </div>
@@ -486,35 +421,35 @@
     <!--=================== TO TOP END ===================-->
     <!--===================== SCRIPT	=====================-->
     <!-- JQUERY JAVASCRIPT -->
-    <script src="./assests/files/masonry.pkgd.min.js"></script>
-    <script src="./assests/files/jquery.fancybox.min.js"></script>
-    <script src="./assests/files/slick.min.js"></script>
-    <script src="./assests/files/rx-lazy.js"></script>
-    <script src="./assests/files/scripts.js"></script>
-    <script src="./assests/files/contact-form-script.js"></script>
+    <script src="../../assests/files/masonry.pkgd.min.js"></script>
+    <script src="../../assests/files/jquery.fancybox.min.js"></script>
+    <script src="../../assests/files/slick.min.js"></script>
+    <script src="../../assests/files/rx-lazy.js"></script>
+    <script src="../../assests/files/scripts.js"></script>
+    <script src="../../assests/files/contact-form-script.js"></script>
     <!-- toastr init -->
-    <script src="./assests/files/jquery.min.js"></script>
-    <script src="./assests/files/jquery-ui.js"></script>
+    <script src="../../assests/files/jquery.min.js"></script>
+    <script src="../../assests/files/jquery-ui.js"></script>
 
 
-    <script type="text/javascript" src="./assests/files/jquery.js"></script>
-    <script type="text/javascript" src="./assests/files/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./assests/files/mixer.js"></script>
-    <script type="text/javascript" src="./assests/files/wow.min.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.appear.js"></script>
-    <script type="text/javascript" src="./assests/files/prettyPhoto.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.shuffle.min.js"></script>
-    <script type="text/javascript" src="./assests/files/owl.carousel.js"></script>
-    <script type="text/javascript" src="./assests/files/mixer.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="./assests/files/modernizr.custom.js"></script>
-    <script type="text/javascript" src="./assests/files/classie.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="./assests/files/theme.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.js"></script>
+    <script type="text/javascript" src="../../assests/files/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/mixer.js"></script>
+    <script type="text/javascript" src="../../assests/files/wow.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.appear.js"></script>
+    <script type="text/javascript" src="../../assests/files/prettyPhoto.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/owl.carousel.js"></script>
+    <script type="text/javascript" src="../../assests/files/mixer.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/modernizr.custom.js"></script>
+    <script type="text/javascript" src="../../assests/files/classie.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="../../assests/files/theme.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="./form.js"></script>
+    <script src="../../form.js"></script>
 
 
 

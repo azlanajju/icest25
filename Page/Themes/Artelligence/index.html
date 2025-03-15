@@ -29,12 +29,27 @@
             color: #666;
             font-size: 18px;
         }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Coming Soon</h1>
         <p>Content for this page will be updated soon.</p>
+        <button class="back-button" onclick="history.back()">Go Back</button>
     </div>
 </body>
 </html>

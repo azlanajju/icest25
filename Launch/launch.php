@@ -6,63 +6,68 @@
     <meta charset="UTF-8">
     <title>ICEST 2025</title>
     <!-- ===================== META ===================== -->
-    <link rel="icon" href="./images/logos/Conclave_Logo.png" type="image/png">
+    <link rel="icon" href="../images/logos/Conclave_Logo.png" type="image/png">
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="https://localhost:5001/Content/assets/img/favicon.png">
     <!-- ===================== STYLE ===================== -->
-    <link rel="stylesheet" href="./assests/files/slick.min.css">
-    <link rel="stylesheet" href="./assests/files/bootstrap-grid.css">
-    <link rel="stylesheet" href="./assests/files/all.css">
-    <link rel="stylesheet" href="./assests/files/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="./assests/files/style.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../assests/files/slick.min.css">
+    <link rel="stylesheet" href="../assests/files/bootstrap-grid.css">
+    <link rel="stylesheet" href="../assests/files/all.css">
+    <link rel="stylesheet" href="../assests/files/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../assests/files/style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <!-- ====================== aos animation ================== -->
-    <link href="./assests/aos/aos.css" rel="stylesheet">
-    <script src="./assests/aos/aos.js"></script>
+    <link href="../assests/aos/aos.css" rel="stylesheet">
+    <script src="../assests/aos/aos.js"></script>
 
 
 
-    <script src="./assests/files/jquery-2.2.4.min.js"></script>
+    <script src="../assests/files/jquery-2.2.4.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="./assests/files/animate.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/animate.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/settings.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/style_002.css">
-    <link rel="stylesheet" type="text/css" href="./assests/files/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/settings.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/style_002.css">
+    <link rel="stylesheet" type="text/css" href="../assests/files/responsive.css">
 
     <!-- ===================== toster ===================== -->
-    <link href="./assests/files/toastr.min.css" rel="stylesheet">
-    <script src="./assests/files/toastr.min.js"></script>
-    <script src="./assests/files/toastr.init.js"></script>
-    <script type="module" src="./assests/files/hook.js"></script>
+    <link href="../assests/files/toastr.min.css" rel="stylesheet">
+    <script src="../assests/files/toastr.min.js"></script>
+    <script src="../assests/files/toastr.init.js"></script>
+    <script type="module" src="../assests/files/hook.js"></script>
 
 
 
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.908.0" data-gr-ext-installed="" cz-shortcut-listen="true">
-
-<!-- under development comments -->
-    <!-- <div style="position: fixed;top: 0;left: 0;z-index: 999999999999999;" class=" .newsContainer">
-        <div>
-            <marquee class="marquee" onmouseover="this.stop();" onmouseout="this.start();" direction="left" behavior="scroll" scrollamount="7">
-                Notice: This site is currently under development and may experience issues while in use. We appreciate your patience and cooperation as we work to finalize and improve the experience. Thank you for your understanding. </marquee>
+    <!-- Curtain Elements -->
+    <div class="curtain-container">
+        <div class="curtain curtain-left">
+            <div class="curtain-content">
+            </div>
         </div>
-    </div> -->
+        <div class="curtain curtain-right">
+            <div class="curtain-content">
+            </div>
+        </div>
+    </div>
+
+
     <!--===================== HEADER =====================-->
     <?php
 
-    $headPath = "./";
-    include("./components/topHeader.php");
+    $headPath = "../";
+    include("../components/topHeader.php");
 
 
-    $menuPath = "./";
-    include("./components/navmenu.php"); ?>
+    $menuPath = "../";
+    include("../components/navmenu.php"); ?>
     <!--=================== HEADER END ===================-->
 
     <style>
@@ -85,43 +90,142 @@
             filter: blur(5px);
         }
 
-        .overlay {
-            position: absolute;
+        /* Curtain Animation Styles */
+        .curtain-container {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
+            height: 100vh;
+            z-index: 999999999999999;
+            pointer-events: none;
+        }
+
+        .curtain {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100vh;
+            /* Solid red gradient background */
+            background: linear-gradient(180deg, #990000 0%, #800000 50%, #660000 100%);
+            transition: transform 3.5s cubic-bezier(0.4, 0, 0.2, 1);
+            background-image:
+                repeating-linear-gradient(0deg,
+                    rgba(255, 255, 255, 0.05) 0px,
+                    rgba(255, 255, 255, 0.05) 1px,
+                    transparent 1px,
+                    transparent 15px),
+                repeating-linear-gradient(90deg,
+                    rgba(255, 255, 255, 0.03) 0px,
+                    rgba(255, 255, 255, 0.03) 1px,
+                    transparent 1px,
+                    transparent 45px);
+            /* Deeper shadow for more depth */
+            box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.8);
+        }
+
+        .curtain::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
+            /* Darker gradient overlay for depth */
+            background: linear-gradient(90deg,
+                    rgba(0, 0, 0, 0.9) 0%,
+                    rgba(0, 0, 0, 0.4) 20%,
+                    rgba(0, 0, 0, 0.4) 80%,
+                    rgba(0, 0, 0, 0.9) 100%);
+        }
+
+        .curtain-left {
+            left: 0;
+            transform-origin: left;
+            border-right: 4px solid rgba(255, 200, 200, 0.4);
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .curtain-right {
+            right: 0;
+            transform-origin: right;
+            border-left: 4px solid rgba(255, 200, 200, 0.4);
+            background: rgba(0, 0, 0, 0.8);
+
+        }
+
+        .curtain.open {
+            transform: scaleX(0);
+        }
+
+        /* Enhanced wave effect at the bottom */
+        .curtain::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(180deg,
+                    transparent 0%,
+                    rgba(80, 0, 0, 0.6) 100%);
+            animation: waveEffect 3s infinite alternate ease-in-out;
+        }
+
+        @keyframes waveEffect {
+            from {
+                transform: skewY(-1.5deg);
+            }
+
+            to {
+                transform: skewY(1.5deg);
+            }
+        }
+
+        /* Brighter content for better visibility */
+        .curtain-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
-        }
-
-        .overlay p {
-            color: white;
-            z-index: 999;
-
-        }
-
-        .overlay h1 {
-            font-size: 3rem;
-            z-index: 999;
-        }
-
-        .overlay:after {
+            color: #fff;
+            opacity: 1;
+            transition: opacity 1s;
             width: 100%;
-            height: 100%;
+            z-index: 2;
+        }
+
+        .curtain-content img {
+            max-width: 150px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5));
+        }
+
+        .curtain-content p {
+            font-size: 1.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        .curtain.open .curtain-content {
+            opacity: 0;
+        }
+
+        /* Fix the launchtext z-index issue */
+        .lauchtext {
+            z-index: 999;
+            color: white;
             position: absolute;
-            left: 0;
-            top: 0;
-            background: rgba(35, 34, 33, 0.5);
-            content: "";
+            top: 40%;
+            text-align: center;
+            -webkit-text-stroke: 0.5px black;
         }
     </style>
-
+    <script>
+        setTimeout(() => {
+            window.location.href = '../';
+        }, 6000);
+    </script>
     <section class="banner2" id="home">
 
         <div class="mainSlider" style="max-height: none; overflow: visible; height: 80vh;">
@@ -129,14 +233,14 @@
                 <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: none;" class="tp-revslider-mainul">
                     <li data-transition="cube" data-slotamount="7" data-masterspeed="500" class="tp-revslider-slidesli active-revslide current-sr-slide-visible" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1;">
                         <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center center" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
-                            <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined" src="./images/pace.jpeg" data-src="./images/PACEaDMIN.png" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(./images/PACEaDMIN.png); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
+                            <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" data-lazydone="undefined" src="../images/pace.jpeg" data-src="../images/PACEaDMIN.png" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(../images/PACEaDMIN.png); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit;">
                                 <video autoplay loop muted>
-                                    <source src="./images/homeVideo.mp4" type="video/mp4">
+                                    <source src="../images/homeVideo.mp4" type="video/mp4">
                                   </video>
-                                <img class="homeImg" src="./images/logos/ICEST_Logo.png" alt="">
+                                <img class="homeImg" src="../images/logos/ICEST_Logo.png" alt="">
                                 <h2 style="position: absolute;right: 0;left: 0;" class="homeTxt">INTERNATIONAL CONCLAVE ON ENGINEERING SCIENCES AND TECHNOLOGY</h2>
                                 <video autoplay loop muted>
-                                    <source src="./Images/videos/videoplayback.mp4" type="video/mp4">
+                                    <source src="../Images/videos/videoplayback.mp4" type="video/mp4">
                             </div>
                         </div>
 
@@ -155,17 +259,29 @@
             </div> -->
             <div class="hero">
                 <video autoplay loop muted>
-                    <source src="./images/homeVideo.mp4" type="video/mp4">
+                    <source src="../images/homeVideo.mp4" type="video/mp4">
                 </video>
                 <div class="overlay">
-                    <img class="homeImg" src="./images/logos/ICEST_Logo.png" alt="">
-                    <h2 style="position: absolute;right: 0;left: 0;" class="homeTxt">INTERNATIONAL CONCLAVE ON ENGINEERING SCIENCES AND TECHNOLOGY - ICEST'25</h2>
+                    <img class="homeImg" src="../images/logos/ICEST_Logo.png" alt="">
+                    <h2 style="position: absolute;right: 0;left: 0;" class="lauchtext">INTERNATIONAL CONCLAVE ON ENGINEERING SCIENCES AND TECHNOLOGY - ICEST'25</h2>
 
                     <div class="homeBtns">
 
                     </div>
                 </div>
     </section>
+    <style>
+        .lauchtext {
+            z-index: 0;
+            color: white;
+            position: absolute;
+            top: 40%;
+            text-align: center;
+            -webkit-text-stroke: 0.5px black;
+
+
+        }
+    </style>
     <!--=================================== home pge end ======================= -->
 
     <!-- ======================================= news start ================================ -->
@@ -197,19 +313,7 @@
             <div style="margin-top:20px" class="our-speakers-cover">
                 <h3 data-aos="fade-up" data-aos-delay="50" class="text-center title-line-left">ABOUT ICEST</h3>
                 <p style="text-align: justify;">ICEST (International conclave on Engineering Sciences and Technology)is an international peer reviewed event to bring together academia, engineers, students, and researchers in the field of Engineering, Science and Technology, making it an ideal platform for sharing knowledge, fostering industry-academic collaborations, and evaluating emerging technologies from around the world. Participants will be able to exchange ideas in order to profit from each other's contributions, as well as learn about current research being conducted throughout the world. The conference's main purpose is to support research and development activities that will be needed in the future, with an emphasis on all potential and recent fields of Engineering. Several well-known professionals in the fields of Engineering will share their knowledge and experience with the attendees. This conference will serve as a global platform for the presentation of novel research findings, as well as the exchange and dissemination of creative and unique research experiences. The conference aims to enhance the state-of-the-art in all fields of Engineering by encouraging novel, high-quality research discoveries and innovative solutions to upcoming and challenging engineering problems.</p>
-                <div class="">
-                    <br>
-                        <div class="our-history-left">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title-">ICEST'24</h4>
-                            <p>
-                            The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.
-                            </p>
-                            <ul style="list-style-type:square;" class="relevent-link"> <br>
-                                <li class="relevent-link"><a class="relevent-link" href="https://icest24.paceconclave.com/">ICEST'24</a></li>
-                            </ul>
 
-                        </div>
-                    </div>
             </div>
 
 
@@ -241,8 +345,8 @@
                             </p>
                             <h3 class="title-relevant-link">Relevant Links</h3>
                             <ul style="list-style-type:square;" class="relevent-link">
-                                <li class="relevent-link"><a class="relevent-link" href="./Page/Register">Register for ICEST25</a></li>
-                                <li><a class="relevant-link" href="./Page/Submission">Paper Submission</a></li>
+                                <li class="relevent-link"><a class="relevent-link" href="../Page/Register">Register for ICEST25</a></li>
+                                <li><a class="relevant-link" href="../Page/Submission">Paper Submission</a></li>
                             </ul>
 
                         </div>
@@ -306,13 +410,13 @@
                             <li> ↪ Robotics and automation</li>
                             <li> ↪ Materials and modeling</li>
                             <li></li> <br>
-                            <li><a class="btn" href="./Page/Themes/MechTech/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/MechTech/Submit">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/MechTech/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Page/Themes/MechTech/Submit">Submit Now</a></li>
                         </ul>
- 
+
                     </div>
                 </li>
                 <li>
-    
+
                     <div data-aos="fade-up" data-aos-delay="50" class="schedule-header">
                         <div class="schedule-time">Theme 2</div>
                         <div class="schedule-title">IC ICE: INTERNATIONAL CONCLAVE - IN CIVIL ENGINEERING</div>
@@ -327,7 +431,7 @@
                             <li> ↪ Sustainability and Environmental Engineering</li>
                             <li> ↪ Water Resources and Irrigation Engineering</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/ICICE/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/ICICE/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/ICICE/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Page/Themes/ICICE/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -349,7 +453,7 @@
                             <li> ↪ Cyber physical systems</li>
 
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/Digitarev/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/Digitarev/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/Digitarev/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Page/Themes/Digitarev/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -369,7 +473,7 @@
                             <li> ↪ VLSI and MEMS</li>
                             <li> ↪ Communication networks and Security</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/SCTS/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/SCTS/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/SCTS/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Page/Themes/SCTS/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -389,7 +493,7 @@
                             <li> ↪ Environmental engineering</li>
                             <li> ↪ Bioprocessing</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/Biotrendcon/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="./Page/Themes/Biotrendcon/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/Biotrendcon/">Know more</a> <a style="background:  rgb(224, 3, 3);color: white;" class="btn" href="../Page/Themes/Biotrendcon/Submit/">Submit Now</a></li>
                         </ul>
                     </div>
                 </li>
@@ -408,7 +512,7 @@
                             <li> ↪ AI for Sustainable technologies and Responsible ML</li>
                             <li> ↪ Natural Language Processing, Ai Communication, and Ethics</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/Artelligence/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./Page/Themes/Artelligence/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/Artelligence/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="../Page/Themes/Artelligence/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -428,7 +532,7 @@
                             <li> ↪ Nanotechnology</li>
                             <li> ↪ Applied Physics</li>
                             <li></li><br>
-                            <li><a class="btn" href="./Page/Themes/ICIBS/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="./Page/Themes/ICIBS/Submit/">Submit Now</a></li>
+                            <li><a class="btn" href="../Page/Themes/ICIBS/">Know more</a> <a style="background: rgb(170, 0, 0);color: white;" class="btn" href="../Page/Themes/ICIBS/Submit/">Submit Now</a></li>
                         </ul>
 
                     </div>
@@ -447,12 +551,12 @@
                 <h2 data-aos="fade-up" data-aos-delay="50" class="title-line">Our Partner</h2>
                 <div class="">
                     <div class="partImages" style="display:flex;justify-content:center">
-                        <img data-aos="fade-right" data-aos-delay="50" height="100" src="./images/logos/presidecy-university.png" alt="">
-                        <!--  <img data-aos="fade-right" data-aos-delay="100" height="100" src="./images/logos/westlondon.png" alt="">-->
+                        <img data-aos="fade-right" data-aos-delay="50" height="100" src="../images/logos/presidecy-university.png" alt="">
+                        <!--  <img data-aos="fade-right" data-aos-delay="100" height="100" src="../images/logos/westlondon.png" alt="">-->
 
                     </div>
                 </div>
-       
+
             </div>
         </section>
 
@@ -503,12 +607,12 @@
                 <div data-aos="fade-up" data-aos-delay="50" class="col-12 col-sm-6 col-md-4 insta-list-cover">
                     <h6>PACE GROUPS</h6>
                     <ul class="insta-list">
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="././assests/files/PACE%20Group.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="././assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="././assests/files/CBS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="././assests/files/GAES.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="././assests/files/IIS.png" alt="social"></a></li>
-                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="././assests/files/PACEs.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACE%20Group.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://www.pace.edu.in/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/P.A.%20Educational%20Trust.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://cbsabudhabi.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/CBS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://gulfasianenglishschool.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/GAES.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://iiss.ae/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/IIS.png" alt="social"></a></li>
+                        <li><a target="_blank" href="https://pacesharjah.com/"><img class="rx-lazy rx-lazy_item" src="../../assests/files/PACEs.png" alt="social"></a></li>
                     </ul>
                 </div>
             </div>
@@ -519,7 +623,7 @@
                     <div class="col-12 col-md-4">
                         <div class="copyright">© 2025. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights Reserved.</div>
                     </div>
-                    <div class="footerCredits"><a href="https://codewizy.in"><img src="./images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
+                    <div class="footerCredits"><a href="https://codewizy.in"><img src="../images/logos/codewizycredits.png" alt="developed by CodeWizy"></a></div>
                 </div>
             </div>
         </div>
@@ -532,34 +636,34 @@
     <!--=================== TO TOP END ===================-->
     <!--===================== SCRIPT	=====================-->
     <!-- JQUERY JAVASCRIPT -->
-    <script src="./assests/files/masonry.pkgd.min.js"></script>
-    <script src="./assests/files/jquery.fancybox.min.js"></script>
-    <script src="./assests/files/slick.min.js"></script>
-    <script src="./assests/files/rx-lazy.js"></script>
-    <script src="./assests/files/scripts.js"></script>
-    <script src="./assests/files/contact-form-script.js"></script>
+    <script src="../assests/files/masonry.pkgd.min.js"></script>
+    <script src="../assests/files/jquery.fancybox.min.js"></script>
+    <script src="../assests/files/slick.min.js"></script>
+    <script src="../assests/files/rx-lazy.js"></script>
+    <script src="../assests/files/scripts.js"></script>
+    <script src="../assests/files/contact-form-script.js"></script>
     <!-- toastr init -->
-    <script src="./assests/files/jquery.min.js"></script>
-    <script src="./assests/files/jquery-ui.js"></script>
+    <script src="../assests/files/jquery.min.js"></script>
+    <script src="../assests/files/jquery-ui.js"></script>
 
 
 
-    <script type="text/javascript" src="./assests/files/jquery.js"></script>
-    <script type="text/javascript" src="./assests/files/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./assests/files/mixer.js"></script>
-    <script type="text/javascript" src="./assests/files/wow.min.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.appear.js"></script>
-    <script type="text/javascript" src="./assests/files/prettyPhoto.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.shuffle.min.js"></script>
-    <script type="text/javascript" src="./assests/files/owl.carousel.js"></script>
-    <script type="text/javascript" src="./assests/files/mixer.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="./assests/files/modernizr.custom.js"></script>
-    <script type="text/javascript" src="./assests/files/classie.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="./assests/files/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="./assests/files/theme.js"></script>
-    <script src="./assests/aos/aos.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.js"></script>
+    <script type="text/javascript" src="../assests/files/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assests/files/mixer.js"></script>
+    <script type="text/javascript" src="../assests/files/wow.min.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.appear.js"></script>
+    <script type="text/javascript" src="../assests/files/prettyPhoto.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.shuffle.min.js"></script>
+    <script type="text/javascript" src="../assests/files/owl.carousel.js"></script>
+    <script type="text/javascript" src="../assests/files/mixer.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../assests/files/modernizr.custom.js"></script>
+    <script type="text/javascript" src="../assests/files/classie.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="../assests/files/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="../assests/files/theme.js"></script>
+    <script src="../assests/aos/aos.js"></script>
     <script>
         AOS.init();
     </script>
@@ -569,6 +673,26 @@
 <script> alert("The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.");</script> -->
     <div id="sp-installed"></div>
 
+    <script>
+        // Add curtain animation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add a longer delay before opening the curtains
+            setTimeout(function() {
+                const curtains = document.querySelectorAll('.curtain');
+                curtains.forEach(function(curtain) {
+                    curtain.classList.add('open');
+                });
+
+                // Remove the curtain container after animation
+                setTimeout(function() {
+                    const container = document.querySelector('.curtain-container');
+                    if (container) {
+                        container.style.display = 'none';
+                    }
+                }, 3500); // Match this with the CSS transition duration
+            }, 1500);
+        });
+    </script>
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>

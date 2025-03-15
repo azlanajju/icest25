@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-3 header-top-info">
                         <ul class="header-two-adr header-cont">
-                            <li><a href="mailto:ICEST25@pace.edu.in"><i class="fas fa-envelope"></i>icest25@pace.edu.in</a></li>
+                            <li><a href="mailto:ICEST25@pace.edu.in"><i class="fas fa-envelope"></i>icest@pace.edu.in</a></li>
                         </ul>
                     </div>
                 </div>

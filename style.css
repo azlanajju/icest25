@@ -111,7 +111,7 @@ html, body{
     width: 150px;
 }
 .homeTxt{
-    z-index: 999999999999 !important;
+    z-index: 99 !important;
     color: white;
     position: absolute;
     top: 40%;

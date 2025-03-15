@@ -48,6 +48,7 @@
 
     <!--===================== HEADER =====================-->
     <?php
+     $currentPage = 'Themes';
 
     $headPath = "../../../";
     include("../../../components/topHeader.php");
@@ -90,7 +91,7 @@
                 <li> Clinical research</li>
                 <li> Environmental engineering</li>
                 <li> Bioprocessing</li>
-                <a class="btn" href="../../../registrations/register5.html">Register Now</a>
+                <a class="btn" href="./Submit/">Register Now</a>
 
             </ul>
         </div>

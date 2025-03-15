@@ -292,7 +292,7 @@
                         </li><br>
                     </div>
                     <br>
-                    <div class="title-line"><a class="btn" href="../../adCommitee.html">View Advisory Committee</a></div>
+                    <div class="title-line"><a class="btn" href="../Committees/">View Advisory Committee</a></div>
 
 
 
@@ -403,7 +403,10 @@
     <script type="text/javascript" src="../../assests/files/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="../../assests/files/theme.js"></script>
 
-
+    <script src="../../assests/aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 
