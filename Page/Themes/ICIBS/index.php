@@ -437,44 +437,9 @@
     </style>
 
     <!--===================== S-association =====================-->
-    <div class="container">
-        <section class="our-history s-title-bg">
-            <span class="title-bg">Partners</span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <div class="our-history-left">
-                            <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">
-                                <h3 class="title-relevant-link">Our Partners</h3>
-                            </h2>
-                            <div class="partImages">
-                                <img data-aos="fade-right" data-aos-delay="50" height="100" src="../../../images/logos/presidecy-university.png" alt="">
-                                <img data-aos="fade-right" data-aos-delay="90" height="100" src="../../../images/logos/westlondon.png" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="our-history-left">
-                            <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">
-                                <h3 class="title-relevant-link">In Associociation with</h3>
-                            </h2>
-                            <div class="partImages">
-                                <img data-aos="fade-left" data-aos-delay="50" height="100" src="../../../images/logos/mangaloreUniversity.png" alt="">
-                                <img data-aos="fade-left" data-aos-delay="75" height="100" src="../../../images/logos/viganUniversity.png" alt="">
-                                <!-- <img data-aos="fade-left" data-aos-delay="100" height="100" src="./images/logos/ieee_mlr.png" alt=""> -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-    </div>
-
+    <?php
+    include("../../../components/partners.php");
+    ?>
 
     <!--================== S-association END ==================-->
 
