@@ -237,16 +237,29 @@
                         <div class="our-history-left">
                             <h2 data-aos="fade-up" data-aos-delay="50" class="title-line-left">Publication</h2>
                             <p>
-                            <p>All the accepted papers will be published in conference proceedings with <strong>ISBN</strong>. Selected papers will be published in a <strong>Special Issue (Web of Science Indexed Journal)</strong>, and high-quality papers can be published in reputed journals indexed in <strong>Scopus/Web of Science</strong> (based on norms & journal publishing charges).</p>
-                            <br>
+                            <p style="text-align: justify !important;">All the accepted papers will be published in conference proceedings with <strong>ISBN</strong>.
+                                Those who wish to publish the papers in journals must fulfill the formalities, including publication charges.</p>
+
+                            <p><strong>The papers will be published in:</strong></p>
+                            <ol>
+                                <li><strong>Special Issue in Web of Science Indexed Journal</strong></li>
+                                <li><em>Journal of Polymer & Composites</em> (BIOTRENDCON & ICIBS)</li>
+                                <li><em>Journal of Mines, Metals & Fuels</em> (MECH TECH & IC-ICE)</li>
+                                <li><em>International Journal of Intelligent Systems and Applications in Engineering</em> (ARTILLIGIANCE, DIGITAREV & SEMI-COMM-TECH-SUMMIT)</li>
+                            </ol>
+
+                            <p style="text-align: justify !important;">Selected papers will be published in a <strong>Special Issue in STM Journal (Web of Science Indexed Journal)</strong> with journal publications.</p>
+
+                            <p style="text-align: justify !important;">High-quality papers can be published in reputed journals indexed in <strong>Scopus/Web of Science</strong> (based on norms & journal publishing charges).</p>
+<br>
                             <p><strong>For ICIBS & BIOTRENDCON:</strong><br>
                                 <em>Journal of Polymer & Composites</em>
-                            </p><br>
+                            </p> <br>
 
                             <p><strong>For MECH TECH & IC-ICE:</strong><br>
                                 <em>Journal of Mines, Metals & Fuels</em>
-                            </p><br>
-
+                            </p>
+<br>
                             <p><strong>For SEMI-COMM-TECH-SUMMIT, DIGITAREV & ARTILLIGANCE:</strong><br>
                                 <em>International Journal of Intelligent Systems and Applications in Engineering</em>
                             </p>
