@@ -70,7 +70,7 @@
             </div>
             <div class="themeIcon">
                 <!-- <img src="../../../images/biotrend.png" alt="BIOTRENDCON"> -->
-                <h1> ICIBS 2024</h1>
+                <h1> ICIBS 2025</h1>
                 <h3> INTERNATIONAL CONCLAVE-IN BASIC SCIENCE</h3>
                 <h1></h1>
             </div>
@@ -534,7 +534,7 @@
             <div class="container">
                 <div class="row footerCredContent">
                     <div class="col-12 col-md-4">
-                        <div class="copyright">© 2024. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
+                        <div class="copyright">© 2025. <a target="_blank" href="#">PACE CONCLAVE</a>. All Rights
                             Reserved.</div>
 
                     </div>

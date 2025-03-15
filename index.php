@@ -200,9 +200,10 @@
                 <div class="">
                     <br>
                         <div class="our-history-left">
-                            <h4 data-aos="fade-up" data-aos-delay="50" class="title-">ICEST'24</h4>
+                            <h4 data-aos="fade-up" data-aos-delay="50" class="title-">Archives</h4>
                             <p>
-                            The conference, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.
+                                <strong>ICEST'24: </strong>
+                            The conference of, which was a week-long gathering of industry experts, researchers, and innovators from around the world, has officially ended after insightful presentations, engaging discussions, and networking opportunities aimed at advancing knowledge and fostering collaboration in various fields.
                             </p>
                             <ul style="list-style-type:square;" class="relevent-link"> <br>
                                 <li class="relevent-link"><a class="relevent-link" href="https://icest24.paceconclave.com/">ICEST'24</a></li>
